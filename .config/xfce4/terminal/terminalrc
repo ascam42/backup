@@ -1,0 +1,26 @@
+[Configuration]
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=FALSE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscDefaultGeometry=80x80
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+BackgroundImageFile=/home/aitoua_s/Downloads/279818_Papel-de-Parede-DOTA-2-Anti-Mage_1920x1200.jpg
+BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_CENTERED
+BackgroundDarkness=0.570000
+ColorPalette=#000000000000;#ffffaaaaaaaa;#0000aaaa0000;#380be94dd93a;#c617fffffe00;#aaaa0000aaaa;#0000aaaaaaaa;#aaaaaaaaaaaa;#555555555555;#ffff55555555;#5555ffff5555;#ffffffff5555;#55555555ffff;#ffff5555ffff;#5555ffffffff;#ffffffffffff
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+FontName=Monospace 11
+ColorForeground=#ffffffffffff
+

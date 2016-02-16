@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js" xml:lang="fr" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta charset="utf-8">
+	<title>Deezer</title>
+	<meta http-equiv="content-language" content="fr">
+	<meta property="fb:app_id" content="241284008322">
+	<meta property="og:site_name" content="Deezer">
+
+	<link rel="shortcut icon" type="image/x-icon" href="http://e-cdn-files.deezer.com/images/common/favicon/favicon-v00346865.ico">
+<link rel="icon" type="image/png" href="http://e-cdn-files.deezer.com/images/common/favicon/favicon-16x16-v00346865.png" sizes="16x16">
+<link rel="icon" type="image/png" href="http://e-cdn-files.deezer.com/images/common/favicon/favicon-32x32-v00346865.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://e-cdn-files.deezer.com/images/common/favicon/favicon-96x96-v00346865.png" sizes="96x96">
+<link rel="icon" type="image/png" href="http://e-cdn-files.deezer.com/images/common/favicon/favicon-160x160-v00346865.png" sizes="160x160">
+<link rel="icon" type="image/png" href="http://e-cdn-files.deezer.com/images/common/favicon/favicon-196x196-v00346865.png" sizes="196x196">
+<link rel="apple-touch-icon" sizes="57x57" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-57x57-v00346865.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-60x60-v00346865.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-72x72-v00346865.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-76x76-v00346865.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-114x114-v00346865.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-120x120-v00346865.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-144x144-v00346865.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://e-cdn-files.deezer.com/images/common/favicon/apple-touch-icon-152x152-v00346865.png">
+	
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/npfkoakaabdallkcdbpkkhfilkkngakh">
+	<link rel="search" type="application/opensearchdescription+xml" href="http://e-cdn-files.deezer.com/xml/opensearch.xml" title="Deezer.com">
+
+	<link rel="alternate" hreflang="en" href="http://www.deezer.com/en/offline/">
+<link rel="alternate" hreflang="fr" href="http://www.deezer.com/fr/offline/">
+<link rel="alternate" hreflang="de" href="http://www.deezer.com/de/offline/">
+<link rel="alternate" hreflang="es" href="http://www.deezer.com/es/offline/">
+<link rel="alternate" hreflang="it" href="http://www.deezer.com/it/offline/">
+<link rel="alternate" hreflang="nl" href="http://www.deezer.com/nl/offline/">
+<link rel="alternate" hreflang="pt" href="http://www.deezer.com/pt/offline/">
+<link rel="alternate" hreflang="ru" href="http://www.deezer.com/ru/offline/">
+<link rel="alternate" hreflang="ko" href="http://www.deezer.com/ko/offline/">
+<link rel="alternate" hreflang="pt-BR" href="http://www.deezer.com/br/offline/">
+<link rel="alternate" hreflang="id" href="http://www.deezer.com/id/offline/">
+<link rel="alternate" hreflang="pl" href="http://www.deezer.com/pl/offline/">
+<link rel="alternate" hreflang="tr" href="http://www.deezer.com/tr/offline/">
+<link rel="alternate" hreflang="ro" href="http://www.deezer.com/ro/offline/">
+<link rel="alternate" hreflang="ms" href="http://www.deezer.com/ms/offline/">
+<link rel="alternate" hreflang="hu" href="http://www.deezer.com/hu/offline/">
+<link rel="alternate" hreflang="sr" href="http://www.deezer.com/rs/offline/">
+<link rel="alternate" hreflang="th" href="http://www.deezer.com/th/offline/">
+<link rel="alternate" hreflang="zh" href="http://www.deezer.com/cn/offline/">
+<link rel="alternate" hreflang="sr" href="http://www.deezer.com/me/offline/">
+<link rel="alternate" hreflang="ar" href="http://www.deezer.com/ar/offline/">
+<link rel="alternate" hreflang="hr" href="http://www.deezer.com/hr/offline/">
+<link rel="alternate" hreflang="us" href="http://www.deezer.com/tl/offline/">
+<link rel="alternate" hreflang="es-MX" href="http://www.deezer.com/mx/offline/">
+<link rel="alternate" hreflang="cs" href="http://www.deezer.com/cs/offline/">
+<link rel="alternate" hreflang="sk" href="http://www.deezer.com/sk/offline/">
+<link rel="alternate" hreflang="sv" href="http://www.deezer.com/se/offline/">
+<link rel="alternate" hreflang="us" href="http://www.deezer.com/us/offline/">
+
+	<!--[if gte IE 9]>
+	<meta name="application-name" content="Deezer">
+	<meta name="msapplication-tooltip" content="Démarrer l'application Deezer">
+	<meta name="msapplication-window" content="width=1600;height=1200">
+	<meta name="msapplication-starturl" content="http://www.deezer.com/fr/">
+	<meta name="msapplication-navbutton-color" content="#202020">
+	<![endif]-->
+
+	<link href="http://e-cdn-files.deezer.com/cache/css/bootstrap-f246a3d0afaaaf18cb2b24dfcb63356b.css" rel="stylesheet" type="text/css">
+<link href="http://e-cdn-files.deezer.com/cache/css/deezer-686016c4fd8bb6ed080788133693c434.css" rel="stylesheet" type="text/css">
+<link href="http://e-cdn-files.deezer.com/cache/css/naboo-efa3b3c105d1e61597ac4839f8049871.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="http://e-cdn-files.deezer.com/cache/js/external-1f10308b7d622666293dbee151f6ae83.js"></script>
+
+<script type="text/javascript">
+document.domain = 'deezer.com';
+if (typeof(init_jquery_address) === 'function') {
+	init_jquery_address();
+}
+</script>
+
+<script type="text/javascript">
+!function(){var a=Handlebars.template,t=Handlebars.templates=Handlebars.templates||{};t.thumbnail=a(function(a,t,n,e,i){function l(a,t){var e,i="";return i+='data-type="',(e=n.type)?e=e.call(a,{hash:{},data:t}):(e=a.type,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'"'}function r(){return" thumbnail-bordered"}function p(){return" thumbnail-rounded"}function o(){return" evt-out evt-over"}function s(){return" evt-click"}function c(a,t){var e,i="";return i+=' data-tooltip="1" data-tooltip-delay="700" data-tooltip-gravity="s" title="',(e=n.tooltip)?e=e.call(a,{hash:{},data:t}):(e=a.tooltip,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'"'}function h(a,t,e){var i,l,r,p="";return p+='\n		<a class="stack-covers evt-click" href="/',(i=n.href_type)?i=i.call(a,{hash:{},data:t}):(i=a.href_type,i=typeof i===gt?i.apply(a):i),p+=mt(i)+"/",(i=n.href_id)?i=i.call(a,{hash:{},data:t}):(i=a.href_id,i=typeof i===gt?i.apply(a):i),p+=mt(i)+'" ',r={hash:{tracking:e.tracking,tracking_id:e.play_context_id,tag:e.tracking_tag},data:t},p+=mt((i=n.setTracking||e.setTracking,i?i.call(a,r):kt.call(a,"setTracking",r)))+">\n			",r={hash:{},inverse:_t.program(19,y,t),fn:_t.programWithDepth(14,d,t,a),data:t},i=n.drawStackCovers||a.drawStackCovers,l=i?i.call(a,a.pic_id,a.cover_type,r):kt.call(a,"drawStackCovers",a.pic_id,a.cover_type,r),(l||0===l)&&(p+=l),p+="\n			",l=n["if"].call(a,a.overlay,{hash:{},inverse:_t.noop,fn:_t.program(21,v,t),data:t}),(l||0===l)&&(p+=l),p+="\n		</a>\n	"}function d(a,t,e){var i,l,r,p="";return p+='\n			<div class="playlist-cover ',r={hash:{},inverse:_t.noop,fn:_t.program(15,f,t),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.cover_type,"playlist",r):kt.call(a,"ifEqual",e.cover_type,"playlist",r),(l||0===l)&&(p+=l),p+=" ",(l=n.last_cover)?l=l.call(a,{hash:{},data:t}):(l=a.last_cover,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" ',l=n["if"].call(a,a.last_cover,{hash:{},inverse:_t.noop,fn:_t.program(17,u,t),data:t}),(l||0===l)&&(p+=l),p+='>\n				<img src="',(l=n.img_url)?l=l.call(a,{hash:{},data:t}):(l=a.img_url,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" width="',(l=n.width)?l=l.call(a,{hash:{},data:t}):(l=a.width,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" height="',(l=n.height)?l=l.call(a,{hash:{},data:t}):(l=a.height,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'">\n			</div>\n			'}function f(){return"playlist-shadow"}function u(a,t){var e,i="";return i+='style="width:',(e=n.width)?e=e.call(a,{hash:{},data:t}):(e=a.width,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'px;"'}function y(a,t){var e,i="";return i+='\n			<div class="playlist-cover-solo cell">\n				<img class="picture" src="',(e=n.img_url)?e=e.call(a,{hash:{},data:t}):(e=a.img_url,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'" src="',(e=n.img_url)?e=e.call(a,{hash:{},data:t}):(e=a.img_url,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'" width="',(e=n.width)?e=e.call(a,{hash:{},data:t}):(e=a.width,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'" height="',(e=n.height)?e=e.call(a,{hash:{},data:t}):(e=a.height,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'">\n			</div>\n			'}function v(){return'\n				<div class="options-overlay"></div>\n			'}function g(a,t){var e,i="";return i+="\n		",e=n["if"].call(a,a.cover_play,{hash:{},inverse:_t.program(35,w,t),fn:_t.programWithDepth(24,m,t,a),data:t}),(e||0===e)&&(i+=e),i+="\n	"}function m(a,t,e){var i,l,r,p="";return p+='\n			<a href="/',(i=n.href_type)?i=i.call(a,{hash:{},data:t}):(i=a.href_type,i=typeof i===gt?i.apply(a):i),p+=mt(i)+"/",(i=n.href_id)?i=i.call(a,{hash:{},data:t}):(i=a.href_id,i=typeof i===gt?i.apply(a):i),p+=mt(i)+'" class="picture-link evt-click" data-link="1" data-play="1" data-id="',(i=n.id)?i=i.call(a,{hash:{},data:t}):(i=a.id,i=typeof i===gt?i.apply(a):i),p+=mt(i)+'" data-type="',(i=n.type)?i=i.call(a,{hash:{},data:t}):(i=a.type,i=typeof i===gt?i.apply(a):i),p+=mt(i)+'" ',r={hash:{tracking:e.tracking,tracking_id:e.play_context_id,tag:"play"},data:t},p+=mt((i=n.setTracking||e.setTracking,i?i.call(a,r):kt.call(a,"setTracking",r)))+" ",l=n["if"].call(a,a.preview,{hash:{},inverse:_t.noop,fn:_t.program(25,_,t),data:t}),(l||0===l)&&(p+=l),p+=' data-play-context="',(l=n.play_context)?l=l.call(a,{hash:{},data:t}):(l=a.play_context,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" ',l=n["if"].call(a,a.play_context_id,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(27,k,t,a),data:t}),(l||0===l)&&(p+=l),p+=" ",l=n["if"].call(a,a.radio,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(29,q,t,a),data:t}),(l||0===l)&&(p+=l),p+=" ",l=n["if"].call(a,a.sent_to_mobile_banner,{hash:{},inverse:_t.noop,fn:_t.program(31,b,t),data:t}),(l||0===l)&&(p+=l),p+='>\n				<img class="picture" src="',(l=n.img_url)?l=l.call(a,{hash:{},data:t}):(l=a.img_url,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" width="',(l=n.width)?l=l.call(a,{hash:{},data:t}):(l=a.width,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" height="',(l=n.height)?l=l.call(a,{hash:{},data:t}):(l=a.height,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'">\n				',l=n["if"].call(a,a.overlay,{hash:{},inverse:_t.noop,fn:_t.program(33,E,t),data:t}),(l||0===l)&&(p+=l),p+="\n			</a>\n		"}function _(a,t){var e,i="";return i+=' data-preview="',(e=n.preview)?e=e.call(a,{hash:{},data:t}):(e=a.preview,e=typeof e===gt?e.apply(a):e),i+=mt(e)+'" '}function k(a,t,n){var e,i="";return i+='data-play-context-id="'+mt((e=n.play_context_id,typeof e===gt?e.apply(a):e))+'"'}function q(a,t,n){var e,i="";return i+='data-radio="'+mt((e=n.radio,typeof e===gt?e.apply(a):e))+'"'}function b(){return'data-is-sent-to-mobile="true"'}function E(){return'\n					<div class="options-overlay"></div>\n				'}function w(a,t){var e,i="";return i+="\n			",e=n["if"].call(a,a.href_type,{hash:{},inverse:_t.program(39,D,t),fn:_t.programWithDepth(36,x,t,a),data:t}),(e||0===e)&&(i+=e),i+="\n		"}function x(a,t,e){var i,l,r,p="";return p+='\n				<a href="/',(i=n.href_type)?i=i.call(a,{hash:{},data:t}):(i=a.href_type,i=typeof i===gt?i.apply(a):i),p+=mt(i)+"/",(i=n.href_id)?i=i.call(a,{hash:{},data:t}):(i=a.href_id,i=typeof i===gt?i.apply(a):i),p+=mt(i)+'" class="picture-link evt-click" data-link="1" ',r={hash:{tracking:e.tracking,tracking_id:e.play_context_id,tag:e.tracking_tag},data:t},p+=mt((i=n.setTracking||e.setTracking,i?i.call(a,r):kt.call(a,"setTracking",r)))+'>\n					<img class="picture" src="',(l=n.img_url)?l=l.call(a,{hash:{},data:t}):(l=a.img_url,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" width="',(l=n.width)?l=l.call(a,{hash:{},data:t}):(l=a.width,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" height="',(l=n.height)?l=l.call(a,{hash:{},data:t}):(l=a.height,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'">\n					',l=n["if"].call(a,a.overlay,{hash:{},inverse:_t.noop,fn:_t.program(37,W,t),data:t}),(l||0===l)&&(p+=l),p+="\n				</a>\n			"}function W(){return'\n						<div class="options-overlay"></div>\n					'}function D(a,t){var e,i,l,r="";return r+='\n				<img class="picture',l={hash:{},inverse:_t.noop,fn:_t.program(40,T,t),data:t},e=n.ifEqual||a.ifEqual,i=e?e.call(a,a.cover_type,"empty",l):kt.call(a,"ifEqual",a.cover_type,"empty",l),(i||0===i)&&(r+=i),r+='" src="',l={hash:{},inverse:_t.programWithDepth(44,z,t,a),fn:_t.program(42,C,t),data:t},e=n.ifEqual||a.ifEqual,i=e?e.call(a,a.cover_type,"empty",l):kt.call(a,"ifEqual",a.cover_type,"empty",l),(i||0===i)&&(r+=i),r+='" width="',(i=n.width)?i=i.call(a,{hash:{},data:t}):(i=a.width,i=typeof i===gt?i.apply(a):i),r+=mt(i)+'" height="',(i=n.height)?i=i.call(a,{hash:{},data:t}):(i=a.height,i=typeof i===gt?i.apply(a):i),r+=mt(i)+'">\n				',i=n["if"].call(a,a.overlay,{hash:{},inverse:_t.noop,fn:_t.program(33,E,t),data:t}),(i||0===i)&&(r+=i),r+="\n			"}function T(){return" picture-empty"}function C(a,t){var e,i="";return(e=n.SETTING_STATIC)?e=e.call(a,{hash:{},data:t}):(e=a.SETTING_STATIC,e=typeof e===gt?e.apply(a):e),i+=mt(e)+"/images/common/blank-v00346819.gif"}function z(a,t,n){var e;return mt((e=n.img_url,typeof e===gt?e.apply(a):e))}function N(){return'\n		<span class="shadow"></span>\n	'}function S(){return'\n		<span class="sticker sticker-small sticker-red">NEW</span>\n	'}function j(a,t,e){var i,l,r,p="";return p+='\n		<a class="evt-click" data-link="1" data-tracking="'+mt((i=e.tracking,typeof i===gt?i.apply(a):i))+'" data-tracking-tag="'+mt((i=e.tracking_tag,typeof i===gt?i.apply(a):i))+'" data-tracking-id="'+mt((i=e.play_context_id,typeof i===gt?i.apply(a):i))+'" href="',r={hash:{},data:t},p+=mt((i=n.thumbnail_unavailable_link||a.thumbnail_unavailable_link,i?i.call(a,a.type,r):kt.call(a,"thumbnail_unavailable_link",a.type,r)))+'">\n			<span class="unavailable">\n				<span class="wrapper">\n					<span class="message">\n					',l=n["if"].call(a,a.unavailable_message,{hash:{},inverse:_t.program(53,I,t),fn:_t.program(51,A,t),data:t}),(l||0===l)&&(p+=l),p+="\n					</span>\n				</span>\n			</span>\n			",l=n["if"].call(a,a.overlay,{hash:{},inverse:_t.noop,fn:_t.program(21,v,t),data:t}),(l||0===l)&&(p+=l),p+="\n		</a>\n	"}function A(a,t){var e,i="";return i+="\n						",(e=n.unavailable_message)?e=e.call(a,{hash:{},data:t}):(e=a.unavailable_message,e=typeof e===gt?e.apply(a):e),i+=mt(e)+"\n					"}function I(a,t){var e,i,l,r="";return r+="\n						",l={hash:{},inverse:_t.programWithDepth(56,M,t,a),fn:_t.program(54,H,t),data:t},e=n.ifEqual||a.ifEqual,i=e?e.call(a,a.type,"album",l):kt.call(a,"ifEqual",a.type,"album",l),(i||0===i)&&(r+=i),r+="\n					"}function H(){return"\n							Cet album n'est pas disponible. Pourquoi ?						"}function M(a,t,e){var i,l,r,p="";return p+="\n							",r={hash:{},inverse:_t.program(59,R,t),fn:_t.program(57,G,t),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.type,"radio",r):kt.call(a,"ifEqual",e.type,"radio",r),(l||0===l)&&(p+=l),p+="\n						"}function G(){return"\n								Ce mix n'est pas disponible.							"}function R(){return"\n								Ce titre n'est pas disponible dans votre pays.							"}function P(){return'\n		<span class="thumbnail-overlay"></span>\n	'}function B(a,t,e){var i,l,r,p="";return p+='\n		<span class="play ',r={hash:{},inverse:_t.noop,fn:_t.program(64,F,t),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.edit,!1,r):kt.call(a,"ifEqual",e.edit,!1,r),(l||0===l)&&(p+=l),p+=" ",r={hash:{},inverse:_t.noop,fn:_t.programWithDepth(66,J,t,a),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.enable_preview,!0,r):kt.call(a,"ifEqual",e.enable_preview,!0,r),(l||0===l)&&(p+=l),p+=" ",r={hash:{},inverse:_t.noop,fn:_t.program(69,L,t),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.play_force,!0,r):kt.call(a,"ifEqual",e.play_force,!0,r),(l||0===l)&&(p+=l),p+='" ',r={hash:{},inverse:_t.noop,fn:_t.program(71,O,t),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.enable_preview,!0,r):kt.call(a,"ifEqual",e.enable_preview,!0,r),(l||0===l)&&(p+=l),p+=' data-play="1" data-id="',(l=n.id)?l=l.call(a,{hash:{},data:t}):(l=a.id,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" data-type="',(l=n.type)?l=l.call(a,{hash:{},data:t}):(l=a.type,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" ',r={hash:{tracking:e.tracking,tag:"play",tracking_id:e.play_context_id,params:e.tracking_params},data:t},p+=mt((i=n.setTracking||e.setTracking,i?i.call(a,r):kt.call(a,"setTracking",r)))+" ",l=n["if"].call(a,a.preview,{hash:{},inverse:_t.noop,fn:_t.program(25,_,t),data:t}),(l||0===l)&&(p+=l),p+=' data-play-context="',(l=n.play_context)?l=l.call(a,{hash:{},data:t}):(l=a.play_context,l=typeof l===gt?l.apply(a):l),p+=mt(l)+'" ',l=n["if"].call(a,a.play_context_id,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(27,k,t,a),data:t}),(l||0===l)&&(p+=l),p+=" ",l=n["if"].call(a,a.sent_to_mobile_banner,{hash:{},inverse:_t.noop,fn:_t.program(31,b,t),data:t}),(l||0===l)&&(p+=l),p+=" ",l=n["if"].call(a,a.radio,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(29,q,t,a),data:t}),(l||0===l)&&(p+=l),p+=">\n			",r={hash:{},inverse:_t.program(75,U,t),fn:_t.programWithDepth(73,Q,t,e),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.edit,!0,r):kt.call(a,"ifEqual",e.edit,!0,r),(l||0===l)&&(p+=l),p+="\n		</span>\n	"}function F(){return"evt-click"}function J(a,t,e){var i,l,r;return r={hash:{},inverse:_t.noop,fn:_t.program(67,K,t),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.edit,!1,r):kt.call(a,"ifEqual",e.edit,!1,r),l||0===l?l:""}function K(){return"evt-out evt-over"}function L(){return"play-force"}function O(){return'data-enable-preview="true" data-tooltip="1" data-tooltip-delay="700" data-tooltip-gravity="s" title="Cliquer longuement pour écouter un extrait"'}function Q(a,t,n){var e,i="";return i+='\n				<a class="evt-click" data-id="'+mt((e=n.id,typeof e===gt?e.apply(a):e))+'" data-type="'+mt((e=n.type,typeof e===gt?e.apply(a):e))+'" data-change-picture="1" data-link="0" href="javascript:void(0)"><span class="icon icon-camera"></span></a>\n			'}function U(){return'\n				<span class="icon-52 icon-stack icon-stack-circle icon-stack-hover">\n					<span class="play-icon play-default">\n						<span class="icon icon-play"></span>\n					</span>\n					<span class="play-icon play-hover">\n						<span class="icon icon-pause"></span>\n					</span>\n					<span class="play-icon play-active">\n						<span class="equalizer equalizer-inverse equalizer-16">\n							<span class="equalizer-bar equalizer-bar-1"></span>\n							<span class="equalizer-bar equalizer-bar-2"></span>\n							<span class="equalizer-bar equalizer-bar-3"></span>\n						</span>\n					</span>\n				</span>\n			'}function V(){return'\n		<span class="closed">\n			<a class="closed-toggle evt-click" data-close="1" href="javascript:void(0)">\n				<i class="icon icon-cancel"></i>\n			</a>\n		</span>\n	'}function X(a,t,n){var e,i="";return i+='\n		<span class="sent-to-mobile evt-click" data-link="0" data-sent-to-mobile="1" data-modal="/lightbox/push_mobile?context=banner&type='+mt((e=n.cover_type,typeof e===gt?e.apply(a):e))+"&id="+mt((e=n.pic_id,typeof e===gt?e.apply(a):e))+'">\n			<span class="wrapper-icon">\n				<span class="icon icon-phone"></span>\n			</span>\n			<span class="wrapper-label">Écouter sur mobile</span>\n		</span>\n	'}function Y(a,t,e){var i,l="";return l+="\n		",i=n.unless.call(a,e.context_menu_hide,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(82,Z,t,e),data:t}),(i||0===i)&&(l+=i),l+="\n	"}function Z(a,t,e){var i,l,r,p="";return p+='\n			<ul class="options" data-link="0" data-favorite="1" data-id="'+mt((i=e.id,typeof i===gt?i.apply(a):i))+'" data-type="'+mt((i=e.type,typeof i===gt?i.apply(a):i))+'" ',r={hash:{tracking:e.tracking,tracking_id:e.play_context_id,tag:e.tracking_tag},data:t},p+=mt((i=n.setTracking||e.setTracking,i?i.call(a,r):kt.call(a,"setTracking",r)))+">\n				",l=n.unless.call(a,e.favorite_hide,{hash:{},inverse:_t.noop,fn:_t.program(83,$,t),data:t}),(l||0===l)&&(p+=l),p+="\n				",r={hash:{},inverse:_t.noop,fn:_t.programWithDepth(100,ht,t,e),data:t},i=n.ifEqual||a.ifEqual,l=i?i.call(a,a.type,"song",r):kt.call(a,"ifEqual",a.type,"song",r),(l||0===l)&&(p+=l),p+='\n				<li class="options-item pull-right">\n					<span class="icon icon-options"\n						  data-action="options"\n						  data-excludes="'+mt((i=e.context_menu_excludes,typeof i===gt?i.apply(a):i))+'"\n						  data-zoom_on_cover="'+mt((i=e.zoom_on_cover,typeof i===gt?i.apply(a):i))+'"\n						  data-art_id="'+mt((i=e.art_id,typeof i===gt?i.apply(a):i))+'"\n						  data-alb_id="'+mt((i=e.alb_id,typeof i===gt?i.apply(a):i))+'"\n						  data-show_id="'+mt((i=e.show_id,typeof i===gt?i.apply(a):i))+'"\n						  data-lyrics_id="'+mt((i=e.lyrics_id,typeof i===gt?i.apply(a):i))+'"\n						  data-image="'+mt((i=e.pic_id,typeof i===gt?i.apply(a):i))+'"\n						  data-cover_type="'+mt((i=e.cover_type,typeof i===gt?i.apply(a):i))+'"\n						  data-blocked="'+mt((i=e.blocked,typeof i===gt?i.apply(a):i))+'"\n						  data-parent_user_id="'+mt((i=e.parent_user_id,typeof i===gt?i.apply(a):i))+'"\n						  data-private_status="'+mt((i=e.private_status,typeof i===gt?i.apply(a):i))+'"></span>\n				</li>\n			</ul>\n		'}function $(a,t){var e,i="";return i+="\n					",e=n["if"].call(a,a.type,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(84,at,t,a),data:t}),(e||0===e)&&(i+=e),i+="\n				"}function at(a,t,e){var i,l,r,p="";return p+="\n						",r={hash:{},inverse:_t.noop,fn:_t.programWithDepth(85,tt,t,e),data:t},i=n.ifNotEqual||e.ifNotEqual,l=i?i.call(a,e.type,"user",r):kt.call(a,"ifNotEqual",e.type,"user",r),(l||0===l)&&(p+=l),p+="\n					"}function tt(a,t,e){var i,l,r,p="";return p+="\n							",r={hash:{},inverse:_t.programWithDepth(94,pt,t,e),fn:_t.programWithDepth(86,nt,t,e),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.type,"playlist",r):kt.call(a,"ifEqual",e.type,"playlist",r),(l||0===l)&&(p+=l),p+="\n						"}function nt(a,t,e){var i,l,r,p="";return p+="\n								",r={hash:{},inverse:_t.noop,fn:_t.programWithDepth(87,et,t,e),data:t},i=n.ifNotEqual||e.ifNotEqual,l=i?i.call(a,e.parent_user_id,e.user_id,r):kt.call(a,"ifNotEqual",e.parent_user_id,e.user_id,r),(l||0===l)&&(p+=l),p+="\n							"}function et(a,t,e){var i,l="";return l+='\n								<li class="options-item options-favorite">\n									<span class="evt-out evt-over icon icon-love',i=n["if"].call(a,e.is_favorite,{hash:{},inverse:_t.noop,fn:_t.program(88,it,t),data:t}),(i||0===i)&&(l+=i),l+='" data-action="favorite" data-tooltip="1" data-tooltip-delay="700" data-tooltip-offset="2" data-tooltip-gravity="s" title="',i=n["if"].call(a,e.is_favorite,{hash:{},inverse:_t.program(92,rt,t),fn:_t.program(90,lt,t),data:t}),(i||0===i)&&(l+=i),l+='"></span>\n								</li>\n								'}function it(){return" active"}function lt(){return"Retirer de Ma musique"}function rt(){return"Ajouter à Ma musique"}function pt(a,t,e){var i,l,r,p="";return p+="\n								",r={hash:{},inverse:_t.programWithDepth(87,et,t,e),fn:_t.programWithDepth(95,ot,t,e),data:t},i=n.ifEqual||e.ifEqual,l=i?i.call(a,e.type,"song",r):kt.call(a,"ifEqual",e.type,"song",r),(l||0===l)&&(p+=l),p+="\n							"}function ot(a,t,e){var i,l="";return l+='\n								<li class="options-item options-favorite">\n									<span class="evt-out evt-over icon icon-love ',i=n["if"].call(a,e.is_favorite,{hash:{},inverse:_t.noop,fn:_t.program(88,it,t),data:t}),(i||0===i)&&(l+=i),l+='" data-action="favorite" data-tooltip="1" data-tooltip-delay="700" data-tooltip-offset="2" data-tooltip-gravity="s" title="',i=n["if"].call(a,e.is_favorite,{hash:{},inverse:_t.program(98,ct,t),fn:_t.program(96,st,t),data:t}),(i||0===i)&&(l+=i),l+='"></span>\n								</li>\n								'}function st(){return"Retirer des Coups de cœur"}function ct(){return"Ajouter aux Coups de cœur"}function ht(a,t,e){var i,l="";return l+="\n					",i=n["if"].call(a,e.lyrics_id,{hash:{},inverse:_t.noop,fn:_t.program(101,dt,t),data:t}),(i||0===i)&&(l+=i),l+='\n					<li class="options-item">\n						<span class="icon icon-playlist-add evt-out evt-over" data-action="playlist" data-tooltip="1" data-tooltip-delay="700" data-tooltip-offset="2" data-tooltip-gravity="s" title="Ajouter à une playlist"></span>\n					</li>\n				'}function dt(){return'\n					<li class="options-item">\n						<span class="icon icon-lyrics evt-out evt-over" data-action="lyrics" data-tooltip="1" data-tooltip-delay="700" data-tooltip-offset="2" data-tooltip-gravity="s" title="Écouter avec les paroles"></span>\n					</li>\n					'}this.compilerInfo=[4,">= 1.0.0"],n=this.merge(n,a.helpers),i=i||{};var ft,ut,yt,vt="",gt="function",mt=this.escapeExpression,_t=this,kt=n.helperMissing;return vt+='<figure data-id="',(ft=n.id)?ft=ft.call(t,{hash:{},data:i}):(ft=t.id,ft=typeof ft===gt?ft.apply(t):ft),vt+=mt(ft)+'" ',ft=n["if"].call(t,t.type,{hash:{},inverse:_t.noop,fn:_t.program(1,l,i),data:i}),(ft||0===ft)&&(vt+=ft),vt+=' class="thumbnail',ft=n["if"].call(t,t.border,{hash:{},inverse:_t.noop,fn:_t.program(3,r,i),data:i}),(ft||0===ft)&&(vt+=ft),ft=n["if"].call(t,t.rounded,{hash:{},inverse:_t.noop,fn:_t.program(5,p,i),data:i}),(ft||0===ft)&&(vt+=ft),ft=n["if"].call(t,t.tooltip,{hash:{},inverse:_t.noop,fn:_t.program(7,o,i),data:i}),(ft||0===ft)&&(vt+=ft),ft=n["if"].call(t,t.eventClick,{hash:{},inverse:_t.noop,fn:_t.program(9,s,i),data:i}),(ft||0===ft)&&(vt+=ft),vt+='"',ft=n["if"].call(t,t.tooltip,{hash:{},inverse:_t.noop,fn:_t.program(11,c,i),data:i}),(ft||0===ft)&&(vt+=ft),vt+=">\n	",ft=n["if"].call(t,t.stack_covers,{hash:{},inverse:_t.program(23,g,i),fn:_t.programWithDepth(13,h,i,t),data:i}),(ft||0===ft)&&(vt+=ft),vt+="\n	",ft=n["if"].call(t,t.shadow,{hash:{},inverse:_t.noop,fn:_t.program(46,N,i),data:i}),(ft||0===ft)&&(vt+=ft),vt+="\n	",ft=n["if"].call(t,t.ribbon,{hash:{},inverse:_t.noop,fn:_t.program(48,S,i),data:i}),(ft||0===ft)&&(vt+=ft),vt+="\n	",ft=n["if"].call(t,t.unavailable,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(50,j,i,t),data:i}),(ft||0===ft)&&(vt+=ft),vt+="\n	",yt={hash:{},inverse:_t.noop,fn:_t.program(61,P,i),data:i},ft=n.ifEqual||t.ifEqual,ut=ft?ft.call(t,t.edit,!0,yt):kt.call(t,"ifEqual",t.edit,!0,yt),(ut||0===ut)&&(vt+=ut),vt+="\n	",ut=n["if"].call(t,t.play,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(63,B,i,t),data:i}),(ut||0===ut)&&(vt+=ut),vt+="\n	",ut=n["if"].call(t,t.closed,{hash:{},inverse:_t.noop,fn:_t.program(77,V,i),data:i}),(ut||0===ut)&&(vt+=ut),vt+="\n	",ut=n["if"].call(t,t.sent_to_mobile_banner,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(79,X,i,t),data:i}),(ut||0===ut)&&(vt+=ut),vt+="\n	",ut=n.unless.call(t,t.unavailable,{hash:{},inverse:_t.noop,fn:_t.programWithDepth(81,Y,i,t),data:i}),(ut||0===ut)&&(vt+=ut),vt+="\n</figure>\n"})}();
+!function(){var a=Handlebars.template,n=Handlebars.templates=Handlebars.templates||{};n.button_multi_state=a(function(a,n,l,i,t){function o(){return"btn-link"}function r(a,n,l){var i,t="";return t+="btn-"+F((i=l.color,typeof i===C?i.apply(a):i))}function e(a,n){var i,t="";return t+=" btn-",(i=l.size)?i=i.call(a,{hash:{},data:n}):(i=a.size,i=typeof i===C?i.apply(a):i),t+=F(i)}function c(a,n){var i,t="";return t+=" ",(i=l.status)?i=i.call(a,{hash:{},data:n}):(i=a.status,i=typeof i===C?i.apply(a):i),t+=F(i)}function p(){return" evt-out cancel-hover"}function s(){return" evt-click"}function f(){return'\n			data-favorite="1"\n		'}function u(){return'\n			data-play="1"\n		'}function h(a,n){var i,t="";return t+='\n			data-key="',(i=l.key)?i=i.call(a,{hash:{},data:n}):(i=a.key,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function d(a,n,l){var i,t="";return t+='\n			title="'+F((i=l.txtTooltip,typeof i===C?i.apply(a):i))+'"\n		'}function g(a,n){var i,t="";return t+='\n			data-display="',(i=l.display)?i=i.call(a,{hash:{},data:n}):(i=a.display,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function v(a,n){var i,t="";return t+='\n			data-size="',(i=l.size)?i=i.call(a,{hash:{},data:n}):(i=a.size,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function q(a,n){var i,t="";return t+='\n			data-play-context="',(i=l.play_context)?i=i.call(a,{hash:{},data:n}):(i=a.play_context,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function y(){return'\n			data-cancel-hover="true"\n		'}function E(a,n){var i,t="";return t+='\n			data-radio="',(i=l.radio)?i=i.call(a,{hash:{},data:n}):(i=a.radio,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function m(a,n){var i,t="";return t+='\n			data-color="',(i=l.color)?i=i.call(a,{hash:{},data:n}):(i=a.color,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function _(a,n){var i,t="";return t+='\n			data-context="',(i=l.context)?i=i.call(a,{hash:{},data:n}):(i=a.context,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function b(a,n){var i,t="";return t+='\n			id="',(i=l.elId)?i=i.call(a,{hash:{},data:n}):(i=a.elId,i=typeof i===C?i.apply(a):i),t+=F(i)+'"\n		'}function k(a,n,i){var t,o,r,e="";return e+='\n		<div class="action action-default">\n			',r={hash:{},inverse:G.noop,fn:G.programWithDepth(38,x,n,i),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtDefault,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.programWithDepth(38,x,n,i),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+='\n		</div>\n		<div class="action action-active">\n			',r={hash:{},inverse:G.noop,fn:G.programWithDepth(43,W,n,i),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtActive,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.programWithDepth(43,W,n,i),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+='\n		</div>\n		<div class="action action-hover">\n			',r={hash:{},inverse:G.noop,fn:G.program(46,H,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtHover,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.program(46,H,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+="\n		</div>\n	"}function x(a,n,i){var t,o,r,e="";return e+="\n				",r={hash:{},inverse:G.noop,fn:G.program(39,z,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon,"library",r):J.call(a,"ifEqual",i.icon,"library",r),(o||0===o)&&(e+=o),e+="\n				",r={hash:{},inverse:G.noop,fn:G.program(39,z,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon,"favorite",r):J.call(a,"ifEqual",i.icon,"favorite",r),(o||0===o)&&(e+=o),e+="\n				",r={hash:{},inverse:G.noop,fn:G.program(41,D,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon,"follow",r):J.call(a,"ifEqual",i.icon,"follow",r),(o||0===o)&&(e+=o),e+="\n			"}function z(){return'\n					<span class="icon icon-love"></span>\n				'}function D(){return'\n					<span class="icon icon-add"></span>\n				'}function W(a,n,i){var t,o,r,e="";return e+="\n				",r={hash:{},inverse:G.noop,fn:G.program(39,z,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon,"library",r):J.call(a,"ifEqual",i.icon,"library",r),(o||0===o)&&(e+=o),e+="\n				",r={hash:{},inverse:G.noop,fn:G.program(39,z,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon,"favorite",r):J.call(a,"ifEqual",i.icon,"favorite",r),(o||0===o)&&(e+=o),e+="\n				",r={hash:{},inverse:G.noop,fn:G.program(44,w,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon,"follow",r):J.call(a,"ifEqual",i.icon,"follow",r),(o||0===o)&&(e+=o),e+="\n			"}function w(){return'\n					<span class="icon icon-check"></span>\n				'}function H(){return'\n				<span class="icon icon-cancel"></span>\n			'}function I(a,n,i){var t,o,r,e="";return e+='\n		<div class="action action-default">\n			',r={hash:{},inverse:G.noop,fn:G.program(49,T,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtDefault,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.program(49,T,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+='\n		</div>\n		<div class="action action-active">\n			',r={hash:{},inverse:G.noop,fn:G.programWithDepth(51,O,n,i),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtActive,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.programWithDepth(51,O,n,i),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+='\n		</div>\n		<div class="action action-hover">\n			',r={hash:{},inverse:G.noop,fn:G.program(53,A,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtHover,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.program(53,A,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+='\n		</div>\n		<div class="action action-resume">\n			',r={hash:{},inverse:G.noop,fn:G.program(49,T,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"left",r):J.call(a,"ifEqual",i.icon_align,"left",r),(o||0===o)&&(e+=o),e+='\n			<span class="label">'+F((t=i.txtResume,typeof t===C?t.apply(a):t))+"</span>\n			",r={hash:{},inverse:G.noop,fn:G.program(49,T,n),data:n},t=l.ifEqual||i.ifEqual,o=t?t.call(a,i.icon_align,"right",r):J.call(a,"ifEqual",i.icon_align,"right",r),(o||0===o)&&(e+=o),e+="\n		</div>\n	"}function T(){return'\n				<span class="icon icon-play-circle"></span>\n			'}function O(a,n,l){var i,t="";return t+='\n				<span class="equalizer equalizer-'+F((i=l.color_equalizer,typeof i===C?i.apply(a):i))+' equalizer-16">\n					<span class="equalizer-bar equalizer-bar-1"></span>\n					<span class="equalizer-bar equalizer-bar-2"></span>\n					<span class="equalizer-bar equalizer-bar-3"></span>\n				</span>\n			'}function A(){return'\n				<span class="icon icon-pause-circle"></span>\n			'}this.compilerInfo=[4,">= 1.0.0"],l=this.merge(l,a.helpers),t=t||{};var M,R,j,B="",C="function",F=this.escapeExpression,G=this,J=l.helperMissing;return B+='<button class="btn btn-action btn-',(M=l.icon)?M=M.call(n,{hash:{},data:t}):(M=n.icon,M=typeof M===C?M.apply(n):M),B+=F(M)+" ",j={hash:{},inverse:G.programWithDepth(3,r,t,n),fn:G.program(1,o,t),data:t},M=l.ifEqual||n.ifEqual,R=M?M.call(n,n.display,"link",j):J.call(n,"ifEqual",n.display,"link",j),(R||0===R)&&(B+=R),R=l["if"].call(n,n.size,{hash:{},inverse:G.noop,fn:G.program(5,e,t),data:t}),(R||0===R)&&(B+=R),R=l["if"].call(n,n.status,{hash:{},inverse:G.noop,fn:G.program(7,c,t),data:t}),(R||0===R)&&(B+=R),R=l["if"].call(n,n.cancel_hover,{hash:{},inverse:G.noop,fn:G.program(9,p,t),data:t}),(R||0===R)&&(B+=R),R=l["if"].call(n,n.enable_delegation,{hash:{},inverse:G.noop,fn:G.program(11,s,t),data:t}),(R||0===R)&&(B+=R),B+='"\n		type="button"\n		data-wording="',(R=l.wording)?R=R.call(n,{hash:{},data:t}):(R=n.wording,R=typeof R===C?R.apply(n):R),B+=F(R)+'"\n		',j={hash:{},inverse:G.noop,fn:G.program(13,f,t),data:t},M=l.ifEqual||n.ifEqual,R=M?M.call(n,n.action,"favorite",j):J.call(n,"ifEqual",n.action,"favorite",j),(R||0===R)&&(B+=R),B+="\n		",j={hash:{},inverse:G.noop,fn:G.program(15,u,t),data:t},M=l.ifOrEqual||n.ifOrEqual,R=M?M.call(n,n.action,"play","flow",j):J.call(n,"ifOrEqual",n.action,"play","flow",j),(R||0===R)&&(B+=R),B+='\n		data-type="',(R=l.type)?R=R.call(n,{hash:{},data:t}):(R=n.type,R=typeof R===C?R.apply(n):R),B+=F(R)+'"\n		data-id="',(R=l.id)?R=R.call(n,{hash:{},data:t}):(R=n.id,R=typeof R===C?R.apply(n):R),B+=F(R)+'"\n		data-action="',(R=l.action)?R=R.call(n,{hash:{},data:t}):(R=n.action,R=typeof R===C?R.apply(n):R),B+=F(R)+'"\n		',R=l["if"].call(n,n.key,{hash:{},inverse:G.noop,fn:G.program(17,h,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.tooltip,{hash:{},inverse:G.noop,fn:G.programWithDepth(19,d,t,n),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.display,{hash:{},inverse:G.noop,fn:G.program(21,g,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.size,{hash:{},inverse:G.noop,fn:G.program(23,v,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.play_context,{hash:{},inverse:G.noop,fn:G.program(25,q,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",j={hash:{tracking:n.tracking,tracking_id:n.tracking_id,tag:n.tracking_tag,params:n.tracking_params},data:t},B+=F((M=l.setTracking||n.setTracking,M?M.call(n,j):J.call(n,"setTracking",j)))+"\n		",R=l["if"].call(n,n.cancel_hover,{hash:{},inverse:G.noop,fn:G.program(27,y,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.radio,{hash:{},inverse:G.noop,fn:G.program(29,E,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.color,{hash:{},inverse:G.noop,fn:G.program(31,m,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.context,{hash:{},inverse:G.noop,fn:G.program(33,_,t),data:t}),(R||0===R)&&(B+=R),B+="\n		",R=l["if"].call(n,n.elId,{hash:{},inverse:G.noop,fn:G.program(35,b,t),data:t}),(R||0===R)&&(B+=R),B+="\n		>\n\n	",j={hash:{},inverse:G.noop,fn:G.programWithDepth(37,k,t,n),data:t},M=l.ifEqual||n.ifEqual,R=M?M.call(n,n.action,"favorite",j):J.call(n,"ifEqual",n.action,"favorite",j),(R||0===R)&&(B+=R),B+="\n\n	",j={hash:{},inverse:G.noop,fn:G.programWithDepth(48,I,t,n),data:t},M=l.ifEqual||n.ifEqual,R=M?M.call(n,n.action,"play",j):J.call(n,"ifEqual",n.action,"play",j),(R||0===R)&&(B+=R),B+="\n\n</button>"})}();
+!function(){var a=Handlebars.template,e=Handlebars.templates=Handlebars.templates||{};e.selectbox=a(function(a,e,t,n,l){function o(a,e){var n,l,o,r="";return r+='\n		<li>\n			<a href="javascript:void(0)" data-index="'+i((n=e,n=null==n||n===!1?n:n.index,typeof n===p?n.apply(a):n))+'" data-id="',o={hash:{},inverse:d.noop,fn:d.program(2,s,e),data:e},n=t.getSelectboxData||a.getSelectboxData,l=n?n.call(a,a,"id",o):b.call(a,"getSelectboxData",a,"id",o),(l||0===l)&&(r+=l),r+='">\n				',o={hash:{},inverse:d.noop,fn:d.program(2,s,e),data:e},n=t.getSelectboxData||a.getSelectboxData,l=n?n.call(a,a,"label",o):b.call(a,"getSelectboxData",a,"label",o),(l||0===l)&&(r+=l),r+="\n			</a>\n		</li>\n	"}function s(){var a="";return a}this.compilerInfo=[4,">= 1.0.0"],t=this.merge(t,a.helpers),l=l||{};var r,c="",p="function",i=this.escapeExpression,d=this,b=t.helperMissing;return c+='<button class="btn btn-default dropdown-toggle" type="button">\n	<span class="label">',(r=t.defaultLabel)?r=r.call(e,{hash:{},data:l}):(r=e.defaultLabel,r=typeof r===p?r.apply(e):r),c+=i(r)+'</span>\n	<span class="icon icon-chevron-down color-primary"></span>\n</button>\n<ul class="dropdown-menu">\n	',r=t.each.call(e,e.data,{hash:{},inverse:d.noop,fn:d.program(1,o,l),data:l}),(r||0===r)&&(c+=r),c+="\n</ul>"})}();
+</script>
+
+<script type="text/javascript">
+<!--
+var JS_INIT = ["_jqueryAddress","_onScroll","_onResize","_onFocus","_onBlur","_onBeforeUnload","platform","live","livebar","naboo","playercontrol","crontab","thumbnails","notificationBar","dzoffline","userData","tips","gigs","tracking","onair","favorite","notification","context_menu","loading_bar","ads","storage","bookmark"];
+var PROTOCOL_HTTP = 'http://';
+var PROTOCOL_WS = 'ws://';
+var SSL = false;
+var LAYOUT = {"mobile":false,"is_mobile":false,"is_standalone":false,"layout":true,"type":"naboo"};
+var PLATFORM = 'web';
+var PLATFORM_OBJ = {"name":false,"os_version":null,"family":"desktop","version":1,"ua":"Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/46.0.2490.86 Safari\/537.36","model":"","app_version":"00346865","lang":""};
+var SETTING_DOMAIN_LIVE = 'deezer.com';
+var SETTING_DOMAIN_COOKIE = '.deezer.com';
+var ENV = 'PROD';
+var SETTING_HOST = 'www.deezer.com';
+var HOST_CONTENT = 'http://cdn-content.deezer.com';
+var SETTING_LANG = 'fr';
+var SETTING_LOCALE = 'fr_FR';
+var SETTING_STATIC = 'http://e-cdn-files.deezer.com';
+var SETTING_HOST_SITE = 'http://www.deezer.com';
+var SETTING_HOST_LIVE = 'live.deezer.com';
+var SETTING_DOMAIN_IMG = 'http://e-cdn-images.deezer.com/images';
+var SETTING_HOST_UPLOAD = 'http://upload.deezer.com';
+var SETTING_HOST_CONNECT = 'http://connect.deezer.com';
+var SETTING_HOST_API = 'http://api.deezer.com';
+var SETTING_HOST_DEVELOPERS = 'http://developers.deezer.com';
+var SETTING_REFERER_UPLOAD = 'FR';
+var SETTING_DOMAIN_PAYMENT = 'https://payment.deezer.com';
+var SOUND_PREVIEW_GATEWAY = 'http://cdn-preview-{0}.deezer.com/stream/{1}-{2}.mp3';
+var HOST_STREAM = 'http://proxy-{0}.deezer.com/mobile/1/';
+var HOST_STREAM_CDN = 'http://cdn-proxy-{0}.deezer.com/mobile/1/';
+var HOST_PREVIEW = 'http://preview-{0}.deezer.com/stream/{1}-{2}.mp3';
+var CDN_RATIO = '100';
+var RESSOURCES = {
+	coreplayer3 : 'cache/swf/coreplayer3_1-18682a709e5d12a26c71e03b88c1d76c.swf',
+	appstudio : [['http://e-cdn-files.deezer.com/cache/css/appstudio-02cbbbdfe77c68147acee040ef17e154.css', 'css']],
+	dz : [["http:\/\/e-cdn-files.deezer.com\/cache\/js\/dzdeezer-270540e2ad331fb6a49678968256c082.js","js"]],
+	cached : []
+};
+var STATIC_VERSION = '00346865';
+var IMAGE_VERSION = '0';
+var CONFIG_VERSION = '81';
+var SESSION_ID = 'frf7e85d4d5649717fd7555e0ab987c042f1fe21';
+var USER_TOKEN = 'tkbfe1513062a02193c8ceb5c298e21110';
+var PLAYLIST_WELCOME_ID = '53362031';
+var COOKIES_BANNER = '1';
+
+
+
+var USER = {
+USER_ID : 15230673,
+USER_PICTURE : 0,
+INSCRIPTION_DATE : '2010-11-18',
+TRY_AND_BUY : {
+	ACTIVE: '0',
+	DATE_START: '0000-00-00 00:00:00',
+	DATE_END: '0000-00-00 00:00:00',
+	PLATEFORM: 'ogone'
+},
+BLOG_NAME : 'IgnisZephyrus', FIRSTNAME : '', LASTNAME : '', USER_PICTURE : '', USER_GENDER : 'M', USER_AGE : 23, PARTNERS : '0',
+TOOLBAR : [],
+OPTIONS : {"mobile_preview":true,"mobile_radio":true,"mobile_streaming":false,"mobile_streaming_duration":0,"mobile_offline":false,"mobile_hq":false,"mobile_lossless":false,"mobile_sound_quality":{"low":false,"standard":true,"high":false,"lossless":false},"mobile_audio_qualities":{"mobile_download":["low","standard"],"mobile_streaming":["low","standard"],"wifi_download":["low","standard"],"wifi_streaming":["low","standard"]},"mobile_default_download_on_mobile_network":true,"tablet_sound_quality":{"low":false,"standard":true,"high":false,"lossless":false},"tablet_audio_qualities":{"mobile_download":["low","standard"],"mobile_streaming":["low","standard"],"wifi_download":["low","standard"],"wifi_streaming":["low","standard"]},"tablet_default_download_on_mobile_network":true,"web_preview":true,"web_radio":true,"web_streaming":true,"web_streaming_duration":0,"web_offline":false,"web_hq":false,"web_lossless":false,"web_sound_quality":{"low":false,"standard":true,"high":false,"lossless":false},"ads_display":true,"ads_audio":true,"dj":false,"nb_devices":0,"radio_skips":6,"too_many_devices":false,"timestamp":1448963246,"web_streaming_used":0,"can_subscribe":true,"upgrade":{"type":"trial","offer":{"id":1,"name":"Deezer Premium+","description":"Toute la musique que vous aimez, partout, tout le temps.","duration":15,"price":{"amount":"9.99","currency":"EUR","display":"9,99 \u20ac"}},"cta":{"label":"15 jours offerts","label_extend":"Activer mes 15 jours offerts","log_name":"trial"}}},
+DEVICES_COUNT : 0,
+SETTING : {"newsletter":{"editor":true,"event":true,"game":true,"special_offer":true,"panel":true,"talk":true},"global":{"language":"","social":true,"popup_unload":false,"filter_explicit_lyrics":false,"onboarding":false,"is_kid":false},"site":{"livebar_state":"close","livebar_tab":"ticker","push_mobile":1448716678,"howto_step":0,"edito_tag":0,"display_confirm_discovery":0,"player_fade":0,"player_hq":false,"nb_flowplayer_dislike_notification":3,"nb_flowplayer_like_notification":3},"twitter":{"share_comment":true,"share_favourite":true,"share_loved":true,"share_share":true},"facebook":{"share_comment":true,"share_favourite":true,"share_loved":true,"share_listen":true,"share_share":true},"google":{"share_comment":true,"share_favourite":true,"share_loved":true,"share_listen":true,"share_share":true},"notification_mail":{"share":false,"friend_follow":true,"playlist_comment":true,"playlist_follow":true,"artist_new_release":true,"artist_status":false,"new_message":true},"notification_mobile":{"share":true,"friend_follow":true,"playlist_comment":true,"playlist_follow":true,"artist_new_release":true,"artist_status":true,"new_message":true},"beta_user":{"ios":false,"android":false,"windowsphone":false,"windows":false},"tips":{"player":false,"flow":false,"add_to_library":false,"lyrics":0,"playlist_assistant":true,"playlist_assistant_suggest":true},"audio_quality_settings":{"preset":"balanced","download_on_mobile_network":true},"customer_message":{"tb_mobile":{"properties":[],"display_count":3,"last_display":"2015-11-28"}},"location":{"city":"Deuil-la-barre","lat":48.976699829102,"lon":2.3271999359131,"source":"ip"}},
+LASTFM : {},
+TWITTER : {},
+FACEBOOK : {
+	},
+GOOGLEPLUS : {
+	},
+FAVORITE_TAG : 152,
+ABTEST : {"first_click_mod":{"id":"first_click_mod","option":"default","behaviour":"No mod"},"abtest_offerpage_trial":{"id":"abtest_offerpage_trial","option":"default","behaviour":"Wording d\u00e9couvrir"},"themed_radio":{"id":"themed_radio","option":"default","behaviour":"Start algo radio A"},"mix_live_clusters":{"id":"mix_live_cluster","option":"mix_clusters","behaviour":"algo 2.1 with clusters"},"flow_live_clusters":{"id":"flow_live_clusters","option":"default","behaviour":"flow user 1.3 or 1.1"},"search_playlists":{"id":"search_playlists","option":"default","behaviour":"Default search playlist"},"new_home":{"id":"new_home","option":"layoutb","behaviour":"layout \"B\" of the new home"},"abtest_senttomobile_oldreg":{"id":"abtest_senttomobile_oldreg","option":"A","behaviour":"Wording X free days : open sendtomobile box"}},
+MULTI_ACCOUNT :{"ENABLED":false,"ACTIVE":false,"CHILD_COUNT":null,"MAX_CHILDREN":null,"PARENT":null,"IS_KID":false}};
+
+var OFFER_ID = '0';
+var OFFER_ELIGIBILITIES = [];
+var COUNTRY = 'FR';
+var CURRENT_DATE = '2015-12-01';
+var MIN_LEGAL_AGE = 1;
+var SERVER_TIMESTAMP = 1448963246;
+var SESSION_DURATION = 0;
+var AD_RULES = {"audio":{"default":{"start":1,"interval":3,"unit":"track"}},"display":{"interstitial":{"start":900,"interval":900,"unit":"sec"}},"big_native_ads_home":{"iphone":{"enabled":false},"ipad":{"enabled":false},"android":{"enabled":false},"android_tablet":{"enabled":false}}};
+var PLAYER_TOKEN = '7a6b2fe07a585a779b09014bf2df820e504d06632656d5208ea5e7d2064962a4a6e85c885d91eaadcebe68565a89f2b775e63ab8c9cf17dffcbd50b8562592b68b48512c09f96a80fe4379a0e6ad0b6ede5994f8af007e5ea79105f936404b122165ecc9ef9470c447f41f9901c7a8cf1ce7aa51594079443963742456a61e1cb91f5d802b1c57925f3d5b4550d409beb638feccc360c3653ff5e4fba63dd340c2f68792f9b18c274830246101dca63a0916828e1307ba3db2b49ab9b12017b4fc6428eeaae3f402d78259e53edbfd82d76ab5c3f9490c22faa589996e404a622d4d070b350d38048a59891450219ed82a689a047237588b91023f5e5cea32bc4abeeb561455d5caf9b0186353cd8b51474acd689f439a6991fd8acbd1e93ad1cc0cdc5a17dd2342ef39bd7cb37f0cb107d2ef55a55f02913b32cc2d180833495e3449261499e3b80ac1571dee055fc1';
+var DZPS = false;
+var LOG_TYPE = 'internal';
+var incr = 0;
+var incrsquare = 0;
+var checkForm = '27e17ee58b83ffb0145ea3aeb1fe3d03';
+var OFFLINE = !window.navigator.onLine;
+var ads_focus_value = true;
+var redirect_fb = '';
+var FROM_ONBOARDING = false;
+var YOUTUBE = {
+	URL: 'https://www.youtube.com/deezer',
+	PLAYLIST: 'PLELa7aiRjdR725uH2OW2Laz7XuA0iA2BE'
+};
+var DEEZER_DRIVE_DOWNLOAD = 'http://dzr.fm/download';
+var WIN8_APP_DOWNLOAD = 'http://apps.microsoft.com/windows/app/deezer/e48b595e-b20a-4eb3-968c-c20b2cadaa1e?';
+var CHROMECAST = {
+	ID: '28BE5D9A',
+	NAMESPACE: 'urn:x-cast:com.dz.player'
+};
+var DIRECTION = "ltr";
+
+var CUSTO = "";
+var COBRANDING = 'none';
+var DATE_FORMAT = 'd-m-Y';
+var LOG_CONTEXT = {"track_page":"track","album_page":"album","show_page":"show","playlist_page":"playlist","downloads_page":"downloads","personalsong_page":"personal_song","radio_page":"radio","smartradio_page":"artist","search_page":"search","history_page":"history","purchase_page":"purchase","inapp_page":"inapp","collection_track":"track","collection_playlist":"playlist","collection_album":"album","collection_radio":"radio","profile_tracks":"track","profile_playlists":"playlist","profile_albums":"album","profile_shows":"show","profile_top_tracks":"track","profile_top_albums":"album","profile_top_shows":"show","profile_radios":"radio","profile_top":"profile","profile_user_radio":"user","artist_top":"track","artist_discography":"album","artist_smartradio":"artist","album_discography":"album","tops_album":"album","tops_track":"track","tops_playlist":"playlist","ticker_track":"track","ticker_playlist":"playlist","ticker_album":"album","player_default_playlist":"playlist","facebook_track":"track","facebook_artist":"track","loved_page":"loved","notification_track":"track","notification_playlist":"playlist","notification_album":"album","notification_artistradio":"artist","notification_genreradio":"radio","feed_track":"track","feed_album":"album","feed_playlist":"playlist","feed_smartradio":"artist","feed_radio":"radio","feed_show":"show","feed_user_radio":"user","explore_picks_album":"album","explore_releases_album":"album","explore_region_album":"album","explore_picks_show":"show","discovery_radio":"radio","discovery_smartradio":"artist","feature_smartradio":"artist","playlist_radio":"playlist_radio","suggest_track":"track","suggest_album":"album","suggest_playlist":"playlist","suggest_artist":"artist","suggest_show":"show","menu_panel_album":"album","menu_panel_playlist":"playlist","menu_panel_queue_list":"track","menu_player":"track","search_album":"album","search_show":"show","search_playlist":"playlist","artist_similar_playlist":"playlist","album_similar_playlist":"playlist","playlist_api":"playlist","track_api":"track","album_api":"album","artist_api":"artist","user_api":"user","radio_api":"radio","episode_api":"episode","home_user_radio":"user","home_album":"album","home_playlist":"playlist","home_radio":"radio","home_artist_radio":"artist","home_track":"track","home_show":"show","episode_page":"episode","talk_show_page":"show","talk_suggest_show":"show","talk_search_show":"show","talk_profile_show":"show","talk_explore":"show"};
+var PLAYER_INIT = {
+	type: 'player_default_playlist',
+	data: {"data":[{"SNG_ID":"113989352","PRODUCT_TRACK_ID":"302076351","UPLOAD_ID":0,"SNG_TITLE":"Ton visage","ART_ID":"4539853","PROVIDER_ID":"4","ART_NAME":"Fr\u00e9ro Delavega","ARTISTS":[{"ART_ID":"4539853","ROLE_ID":"0","ART_NAME":"Fr\u00e9ro Delavega","ART_PICTURE":"57f928fe199f309a49383d97da3e2e2d","SMARTRADIO":"1","RANK":"841287","__TYPE__":"artist"}],"ALB_ID":"11805552","ALB_TITLE":"Des ombres et des lumi\u00e8res","TYPE":0,"MD5_ORIGIN":"99a35f1d58ce216f4aaea9989d50c0b8","VIDEO":false,"DURATION":"159","ALB_PICTURE":"12108ff365cb104e1c88aa72d253e1d9","ART_PICTURE":"57f928fe199f309a49383d97da3e2e2d","RANK_SNG":"792608","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1273520","FILESIZE_MP3_128":"2547042","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"6367607","FILESIZE":"2547042","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"4","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"ISRC":"FRUM71501929","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Fr\u00e9ro Delavega"],"composer":["Fr\u00e9ro Delavega"],"bass guitar":["Romain Joutard"],"producer":["Romain Joutard","Julien Grenier"],"guitar":["Romain Joutard"],"interpr\u00e8te vocal":["Florian Garcia","J\u00e9r\u00e9my Frerot"],"keyboards":["Julien Grenier"],"percussion":["Julien Grenier","Adriano DD Tenorio"],"author":["T\u00e9t\u00e9"],"musicpublisher":["BMG Rights Management","Canal Music Publishing B.V","D. R.","FefeFartWorks","Universal Music Publishing"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"109176400","PRODUCT_TRACK_ID":"298625361","UPLOAD_ID":0,"SNG_TITLE":"Come","ART_ID":"5951582","PROVIDER_ID":"2","ART_NAME":"Jain","ARTISTS":[{"ART_ID":"5951582","ROLE_ID":"0","ART_NAME":"Jain","ART_PICTURE":"a6aa86a2b44c28878e51b8c2c972b35a","SMARTRADIO":"0","RANK":"52432","__TYPE__":"artist"},{"ART_ID":"5951582","ROLE_ID":"5","ART_NAME":"Jain","ART_PICTURE":"a6aa86a2b44c28878e51b8c2c972b35a","SMARTRADIO":"0","RANK":"52432","__TYPE__":"artist"}],"ALB_ID":"11375984","ALB_TITLE":"Zanaka","TYPE":0,"MD5_ORIGIN":"b5f9044359dcefd444fa1543065f72f2","VIDEO":false,"DURATION":"162","ALB_PICTURE":"cc09c2457ce3e1adc3a7a23f93440e59","ART_PICTURE":"a6aa86a2b44c28878e51b8c2c972b35a","RANK_SNG":"864173","SMARTRADIO":"0","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1298598","FILESIZE_MP3_128":"2597197","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"6492995","FILESIZE":"2597197","MEDIA_VERSION":"3","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"FR9W11502680","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"associatedperformer":["Jain"],"composer":["Jain"],"lyricist":["Jain"],"mainartist":["Jain"],"programmer":["Jain"],"arranger":["Yodelice"],"bass guitar":["Yodelice"],"guitar":["Yodelice"],"keyboards":["Yodelice"],"mixing engineer":["Yodelice"],"producer":["Yodelice"],"recording engineer":["Yodelice"],"mastering engineer":["Herb Powers"],"trombone":["St\u00e9phane montigny"],"assistant engineer":["Adrien Hurtebize"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"104216248","PRODUCT_TRACK_ID":"288383011","UPLOAD_ID":0,"SNG_TITLE":"Georgia","ART_ID":"7959958","PROVIDER_ID":"2","ART_NAME":"Tiggs Da Author","ARTISTS":[{"ART_ID":"7959958","ROLE_ID":"0","ART_NAME":"Tiggs Da Author","ART_PICTURE":"1c36ca023814bab5eb7074df717a492b","SMARTRADIO":"0","RANK":"100000","__TYPE__":"artist"},{"ART_ID":"7959958","ROLE_ID":"5","ART_NAME":"Tiggs Da Author","ART_PICTURE":"1c36ca023814bab5eb7074df717a492b","SMARTRADIO":"0","RANK":"100000","__TYPE__":"artist"}],"ALB_ID":"10841286","ALB_TITLE":"Georgia","TYPE":0,"MD5_ORIGIN":"a5240e9f82253047ac830eb5620d6e1e","VIDEO":false,"DURATION":"192","ALB_PICTURE":"26f6a799e7a76d2a26321a549e345941","ART_PICTURE":"1c36ca023814bab5eb7074df717a492b","RANK_SNG":"662910","SMARTRADIO":"0","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1563166","FILESIZE_MP3_128":"3126333","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7815835","FILESIZE":"3126333","MEDIA_VERSION":"0","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"GBARL1500904","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"associatedperformer":["Tiggs Da Author"],"mainartist":["Tiggs Da Author"],"composer":["Adam Simon","Ellis Taylor","DON D. ROBEY"],"lyricist":["Adam Simon","Ellis Taylor","DON D. ROBEY"],"horn":["Scott Ralph"],"engineer":["Ellis Taylor"],"producer":["Ellis Taylor","Mark Ralph"],"background vocal":["Ladonna Peters","Vicky Akintola"],"executive producer":["Derek Safo"],"co-executive producer":["Tumai Salih"],"mixing engineer":["Mark Ralph"],"programmer":["Dennis White"],"mastering engineer":["John Davies"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"112889796","PRODUCT_TRACK_ID":"301817031","UPLOAD_ID":0,"SNG_TITLE":"Bang my Head (feat. Sia & Fetty Wap)","ART_ID":"542","PROVIDER_ID":"3","ART_NAME":"David Guetta","ARTISTS":[{"ART_ID":"542","ROLE_ID":"0","ART_NAME":"David Guetta","ART_PICTURE":"a64eaaee3232fa49c32c01afd31a5f45","SMARTRADIO":"1","RANK":"982418","__TYPE__":"artist"},{"ART_ID":"3469","ROLE_ID":"5","ART_NAME":"Sia","ART_PICTURE":"15899685d14010a641b1fbb4fb960f98","SMARTRADIO":"1","RANK":"992145","__TYPE__":"artist"},{"ART_ID":"7200950","ROLE_ID":"5","ART_NAME":"Fetty Wap","ART_PICTURE":"6554aa6290d0d53a74f0b3a1112bbe1f","SMARTRADIO":"0","RANK":"604203","__TYPE__":"artist"}],"ALB_ID":"11697740","ALB_TITLE":"Listen Again","TYPE":0,"MD5_ORIGIN":"05a50d0f56e514d207cab3f85e205dc6","VIDEO":false,"DURATION":"193","ALB_PICTURE":"59c4bc5f9ecacd3e7b563e4492f5efdb","ART_PICTURE":"a64eaaee3232fa49c32c01afd31a5f45","RANK_SNG":"775176","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1547283","FILESIZE_MP3_128":"3094568","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7736423","FILESIZE":"3094568","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"15","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"GB28K1500110","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["David Guetta"],"dj":["David Guetta"],"producer":["David Guetta","Giorgio Tuinfort","Marcus Van Wattum","Nicky Romero"],"composer":["David Guetta","Giorgio Tuinfort","Marcus Van Wattum","Kristian Carlsson","Nick Rotteveel"],"featuredartist":["Sia","Fetty Wap"],"lead vocals":["Sia"],"featured vocals":["Fetty Wap"],"mixer":["Daddy's Groove"],"writer":["Kristian Carlsson","Magnus Lideh\u00e4ll","Vincent Pontare"],"lyricist":["Sia Furler"]},"LYRICS_ID":"1338682","__TYPE__":"song"},{"SNG_ID":"106061618","PRODUCT_TRACK_ID":"162020371","UPLOAD_ID":0,"SNG_TITLE":"All We Do","ART_ID":"7215914","PROVIDER_ID":"4","ART_NAME":"Oh Wonder","ARTISTS":[{"ART_ID":"7215914","ROLE_ID":"0","ART_NAME":"Oh Wonder","ART_PICTURE":"4e13000bf10df6fb8d0211324574f6c8","SMARTRADIO":"0","RANK":"333448","__TYPE__":"artist"}],"ALB_ID":"11056710","ALB_TITLE":"Oh Wonder","TYPE":0,"MD5_ORIGIN":"da75fa52b5447530cbd052d796612d3c","VIDEO":false,"DURATION":"214","ALB_PICTURE":"dc310b164e5dd1bffa36d358a2e28126","ART_PICTURE":"4e13000bf10df6fb8d0211324574f6c8","RANK_SNG":"778428","SMARTRADIO":"0","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1713840","FILESIZE_MP3_128":"3427682","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"8569207","FILESIZE":"3427682","MEDIA_VERSION":"0","DISK_NUMBER":"1","TRACK_NUMBER":"11","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"ISRC":"GB9L31400014","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"main_artist":["Oh Wonder"],"author":["Josephine Vander Gucht","Anthony West"],"composer":["Josephine Vander Gucht","Anthony West"],"misc":["Copyright Control"]},"LYRICS_ID":"1672912","__TYPE__":"song"},{"SNG_ID":"106911256","PRODUCT_TRACK_ID":"294523791","UPLOAD_ID":0,"SNG_TITLE":"Les potos","ART_ID":"7983","PROVIDER_ID":"10","ART_NAME":"Oxmo Puccino","ARTISTS":[{"ART_ID":"7983","ROLE_ID":"0","ART_NAME":"Oxmo Puccino","ART_PICTURE":"692b736dd1ddd1f2dc384cc7571b5dda","SMARTRADIO":"1","RANK":"617230","__TYPE__":"artist"}],"ALB_ID":"11146724","ALB_TITLE":"La Voix Lact\u00e9e","TYPE":0,"MD5_ORIGIN":"a18b92a7338669a7344c934b8d56c2c8","VIDEO":false,"DURATION":"136","ALB_PICTURE":"34e00d9fcbe55d16110a842192acbac3","ART_PICTURE":"692b736dd1ddd1f2dc384cc7571b5dda","RANK_SNG":"719141","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1090663","FILESIZE_MP3_128":"2181328","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"5453321","FILESIZE":"2181328","MEDIA_VERSION":"0","DISK_NUMBER":"1","TRACK_NUMBER":"13","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"FR7X61500190","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Oxmo Puccino"],"lyricist":["Oxmo Puccino"],"composer":["Oxmo Puccino"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"113947116","PRODUCT_TRACK_ID":"304891301","UPLOAD_ID":0,"SNG_TITLE":"Borders","ART_ID":"3878","PROVIDER_ID":"4","ART_NAME":"M.I.A.","ARTISTS":[{"ART_ID":"3878","ROLE_ID":"0","ART_NAME":"M.I.A.","ART_PICTURE":"c8508cf1f49f7ae6b785fe22fc6b8d39","SMARTRADIO":"1","RANK":"728426","__TYPE__":"artist"}],"ALB_ID":"11801754","ALB_TITLE":"Borders","TYPE":0,"MD5_ORIGIN":"9468f292019ffd8545d2ea34189f45fe","VIDEO":false,"DURATION":"252","ALB_PICTURE":"1cc52205bee612804b05c12575c6caec","ART_PICTURE":"c8508cf1f49f7ae6b785fe22fc6b8d39","RANK_SNG":"714758","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"2013935","FILESIZE_MP3_128":"4027871","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"10069680","FILESIZE":"4027871","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"1","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"ISRC":"USUG11501551","DATE_ADD":1448639750,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["M.I.A."],"producer":["Adp"],"additional producer":["Levi Lennox"],"composer":["Levi Lennox","Maya Arulpragasam","Amish Patel"],"author":["Levi Lennox","Maya Arulpragasam","Amish Patel"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"110044972","PRODUCT_TRACK_ID":"298177341","UPLOAD_ID":0,"SNG_TITLE":"All My Friends","ART_ID":"436233","PROVIDER_ID":"2","ART_NAME":"Snakehips","ARTISTS":[{"ART_ID":"436233","ROLE_ID":"0","ART_NAME":"Snakehips","ART_PICTURE":"d30d618a3c44d50103b7a8f7aac20b0a","SMARTRADIO":"1","RANK":"414688","__TYPE__":"artist"},{"ART_ID":"345052","ROLE_ID":"5","ART_NAME":"Tinashe","ART_PICTURE":"4f60dde78ff02c776cd03a7e51d0a014","SMARTRADIO":"1","RANK":"782191","__TYPE__":"artist"},{"ART_ID":"436233","ROLE_ID":"5","ART_NAME":"Snakehips","ART_PICTURE":"d30d618a3c44d50103b7a8f7aac20b0a","SMARTRADIO":"1","RANK":"414688","__TYPE__":"artist"},{"ART_ID":"4400138","ROLE_ID":"5","ART_NAME":"Chance the Rapper","ART_PICTURE":"1d3ac59fd7e606c6906ccb87a84e1d13","SMARTRADIO":"1","RANK":"685223","__TYPE__":"artist"},{"ART_ID":"9092584","ROLE_ID":"5","ART_NAME":"Snakehips feat. Tinashe & Chance The Rapper","ART_PICTURE":"","SMARTRADIO":"0","RANK":"100000","__TYPE__":"artist"}],"ALB_ID":"11460524","ALB_TITLE":"All My Friends","TYPE":0,"MD5_ORIGIN":"dc3c79dd9ae19521872c3364346cf03d","VIDEO":false,"DURATION":"229","ALB_PICTURE":"50fc7ee48f5c09e428320939b724e132","ART_PICTURE":"d30d618a3c44d50103b7a8f7aac20b0a","RANK_SNG":"881338","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1838392","FILESIZE_MP3_128":"3676786","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9191966","FILESIZE":"3676786","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"1","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"GBARL1501370","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"associatedperformer":["Snakehips","Tinashe","Chance the Rapper","Snakehips feat. Tinashe & Chance The Rapper"],"mainartist":["Snakehips"],"producer":["Snakehips"],"programmer":["Snakehips","Cass Lowe"],"featuredartist":["Tinashe","Chance the Rapper"],"vocal":["Tinashe","Chance the Rapper","Oliver Dickinson","Cass Lowe"],"composer":["Oliver Dickinson","James David","Cass Lowe","Chancelor J Bennett"],"lyricist":["Oliver Dickinson","James David","Cass Lowe","Chancelor J Bennett"],"co-producer":["Cass Lowe"],"mixing engineer":["Serban Ghenea"],"engineer":["John Hanes"],"mastering engineer":["Tom Coyne"]},"LYRICS_ID":"1689394","__TYPE__":"song"},{"SNG_ID":"112661754","PRODUCT_TRACK_ID":"304334701","UPLOAD_ID":0,"SNG_TITLE":"7:77 am","ART_ID":"1412564","PROVIDER_ID":"4","ART_NAME":"Nekfeu","ARTISTS":[{"ART_ID":"1412564","ROLE_ID":"0","ART_NAME":"Nekfeu","ART_PICTURE":"edb5a0131fc418569eb4aee10cfccc18","SMARTRADIO":"1","RANK":"638181","__TYPE__":"artist"},{"ART_ID":"8745064","ROLE_ID":"5","ART_NAME":"86 Joon","ART_PICTURE":"","SMARTRADIO":"0","RANK":"100000","__TYPE__":"artist"}],"ALB_ID":"11674666","ALB_TITLE":"7:77 am","TYPE":0,"MD5_ORIGIN":"83d0ab9a7cc233a33e45f224d57d65b9","VIDEO":false,"DURATION":"235","ALB_PICTURE":"bd37d1127ca9942976467a03a6eca99e","ART_PICTURE":"edb5a0131fc418569eb4aee10cfccc18","RANK_SNG":"926421","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1879979","FILESIZE_MP3_128":"3759959","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9399901","FILESIZE":"3759959","MEDIA_VERSION":"5","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"ISRC":"FR9W11516353","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Nekfeu"],"author":["Nekfeu","86 Joon"],"featuredartist":["86 Joon"],"composer":["Mems"],"musicpublisher":["D.R.","Seine Zoo"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"110849286","PRODUCT_TRACK_ID":"302079771","UPLOAD_ID":0,"SNG_TITLE":"Irkutsk","ART_ID":"106574","PROVIDER_ID":"19","ART_NAME":"Thylacine","ARTISTS":[{"ART_ID":"106574","ROLE_ID":"0","ART_NAME":"Thylacine","ART_PICTURE":"6507afc41c09fac0ab7d35ab60b21144","SMARTRADIO":"1","RANK":"536669","__TYPE__":"artist"}],"ALB_ID":"11528706","ALB_TITLE":"Transsiberian","TYPE":0,"MD5_ORIGIN":"687c8a6d87ae6ed94dcb8f62953adc0b","VIDEO":false,"DURATION":"143","ALB_PICTURE":"524291a20e913b9c9c340faeb55b6e71","ART_PICTURE":"6507afc41c09fac0ab7d35ab60b21144","RANK_SNG":"679249","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1146879","FILESIZE_MP3_128":"2293759","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"5734399","FILESIZE":"2293759","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"9","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"FR9W11513442","DATE_ADD":1448638972,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Thylacine"],"lyricist":["William Rez\u00e9"],"composer":["William Rez\u00e9"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"110256520","PRODUCT_TRACK_ID":"300825491","UPLOAD_ID":0,"SNG_TITLE":"Barman","ART_ID":"13011","PROVIDER_ID":"3","ART_NAME":"Soprano","ARTISTS":[{"ART_ID":"13011","ROLE_ID":"0","ART_NAME":"Soprano","ART_PICTURE":"8b25d7674a53f36dcfec7070e348002e","SMARTRADIO":"1","RANK":"934706","__TYPE__":"artist"}],"ALB_ID":"11482726","ALB_TITLE":"Cosmopolitanie","TYPE":0,"MD5_ORIGIN":"78600b6bed2c5ba8505c198e3cb30839","VIDEO":false,"DURATION":"195","ALB_PICTURE":"c23aed89041bae8bfb605c771e39c376","ART_PICTURE":"8b25d7674a53f36dcfec7070e348002e","RANK_SNG":"958920","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1567345","FILESIZE_MP3_128":"3134692","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7836733","FILESIZE":"3134692","MEDIA_VERSION":"4","DISK_NUMBER":"2","TRACK_NUMBER":"7","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"FRZ111501049","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Soprano"],"lead vocals":["Soprano"],"writer":["Soprano"],"producer":["Djaresma","Mej"],"composer":["Djaresma"]},"LYRICS_ID":"1691806","__TYPE__":"song"},{"SNG_ID":"111406334","PRODUCT_TRACK_ID":"302989451","UPLOAD_ID":0,"SNG_TITLE":"Stand By Me","ART_ID":"971","PROVIDER_ID":"3","ART_NAME":"Tracy Chapman","ARTISTS":[{"ART_ID":"971","ROLE_ID":"0","ART_NAME":"Tracy Chapman","ART_PICTURE":"7fc8de2ba9c35e31ca0d1ae99e4eb0c8","SMARTRADIO":"1","RANK":"711281","__TYPE__":"artist"}],"ALB_ID":"11573538","ALB_TITLE":"Greatest Hits","TYPE":0,"MD5_ORIGIN":"2350eb78864c3f1ae3ad41dd000dc98b","VIDEO":false,"DURATION":"169","ALB_PICTURE":"7efeca40cd4ca9084173b9aedafb6a8b","ART_PICTURE":"7fc8de2ba9c35e31ca0d1ae99e4eb0c8","RANK_SNG":"882320","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1352723","FILESIZE_MP3_128":"2705448","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"6763623","FILESIZE":"2705448","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"18","VERSION":"(Live At The Late Show With David Letterman)","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"USRH11508098","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Tracy Chapman"],"acoustic guitar":["Tracy Chapman"],"vocals":["Tracy Chapman"],"lyricist":["Keith Chan Siu-kei"],"composer":["King Ben E","Leiber Jerry","Stroller Mike"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"113408396","PRODUCT_TRACK_ID":"298071711","UPLOAD_ID":0,"SNG_TITLE":"Mystery Light","ART_ID":"7688082","PROVIDER_ID":"2","ART_NAME":"Alice on the roof","ARTISTS":[{"ART_ID":"7688082","ROLE_ID":"0","ART_NAME":"Alice on the roof","ART_PICTURE":"6ff873e237d6db18731382fa5b10e36d","SMARTRADIO":"0","RANK":"179735","__TYPE__":"artist"},{"ART_ID":"7688082","ROLE_ID":"5","ART_NAME":"Alice on the roof","ART_PICTURE":"6ff873e237d6db18731382fa5b10e36d","SMARTRADIO":"0","RANK":"179735","__TYPE__":"artist"}],"ALB_ID":"11747136","ALB_TITLE":"Mystery Light","TYPE":0,"MD5_ORIGIN":"390e37ef2b3ff09f4d1fbb44c49c2004","VIDEO":false,"DURATION":"188","ALB_PICTURE":"2903c53641044783ba56e22329901048","ART_PICTURE":"6ff873e237d6db18731382fa5b10e36d","RANK_SNG":"761239","SMARTRADIO":"0","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1511339","FILESIZE_MP3_128":"3022679","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7556701","FILESIZE":"3022679","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"BEDD61500006","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"associatedperformer":["Alice on the roof"],"mainartist":["Alice on the roof"],"lyricist":["Alice Dutoit","Joseph Hammill"],"composer":["Marc Pinilla","Christian Ravalison"],"producer":["Tim Bran"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"112017708","PRODUCT_TRACK_ID":"303923331","UPLOAD_ID":0,"SNG_TITLE":"Sur mon \u00eele","ART_ID":"1211687","PROVIDER_ID":"10","ART_NAME":"Rapha\u00eble Lannadere","ARTISTS":[{"ART_ID":"1211687","ROLE_ID":"0","ART_NAME":"Rapha\u00eble Lannadere","ART_PICTURE":"a82a277da0daa85bb71172b176116a3d","SMARTRADIO":"1","RANK":"406980","__TYPE__":"artist"}],"ALB_ID":"11620348","ALB_TITLE":"L.","TYPE":0,"MD5_ORIGIN":"939170b9721c18388e8b96ef6b9d265e","VIDEO":false,"DURATION":"224","ALB_PICTURE":"cb0bba69ca0a4a07059f97bbb722e5df","ART_PICTURE":"a82a277da0daa85bb71172b176116a3d","RANK_SNG":"767052","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1790118","FILESIZE_MP3_128":"3580237","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"8950595","FILESIZE":"3580237","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"2","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"FR79W1500230","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Rapha\u00eble Lannadere"],"lyricist":["Rapha\u00eble Lannadere"],"composer":["Rapha\u00eble Lannadere"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"102360940","PRODUCT_TRACK_ID":"225234441","UPLOAD_ID":0,"SNG_TITLE":"Lost in London","ART_ID":"152798","PROVIDER_ID":"1","ART_NAME":"The Shoes","ARTISTS":[{"ART_ID":"152798","ROLE_ID":"0","ART_NAME":"The Shoes","ART_PICTURE":"a891a83e7195dd5861c274389f2782bc","SMARTRADIO":"1","RANK":"529498","__TYPE__":"artist"},{"ART_ID":"3171351","ROLE_ID":"5","ART_NAME":"Petite Noir","ART_PICTURE":"a742474b0c649ced44aa60ec8d2ef2f9","SMARTRADIO":"1","RANK":"391522","__TYPE__":"artist"}],"ALB_ID":"10631650","ALB_TITLE":"Chemicals","TYPE":0,"MD5_ORIGIN":"80cc4f3c627e557701387aa8f794e8a6","VIDEO":false,"DURATION":"228","ALB_PICTURE":"2a9506494d5fd5de163e7dff254b4add","ART_PICTURE":"a891a83e7195dd5861c274389f2782bc","RANK_SNG":"858786","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1832541","FILESIZE_MP3_128":"3665083","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9162709","FILESIZE":"3665083","MEDIA_VERSION":"0","DISK_NUMBER":"1","TRACK_NUMBER":"4","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"FR4DI1500060","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"main_artist":["The Shoes"],"featuring":["Petite Noir"],"author":["Yannick Ilunga","Emilie Andreux"],"composer":["Guillaume Briere","Benjamin Lebeau"],"misc":["ROUGE ET OR MUSIQUE \/ DOMINO PUBLISHING COMPANY LIMITED"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"113416396","PRODUCT_TRACK_ID":"305070481","UPLOAD_ID":0,"SNG_TITLE":"So Long","ART_ID":"7420680","PROVIDER_ID":"2","ART_NAME":"Leon Bridges","ARTISTS":[{"ART_ID":"7420680","ROLE_ID":"0","ART_NAME":"Leon Bridges","ART_PICTURE":"76567fe7bed9b9047853cc18dbf8fcb5","SMARTRADIO":"0","RANK":"610802","__TYPE__":"artist"},{"ART_ID":"7420680","ROLE_ID":"5","ART_NAME":"Leon Bridges","ART_PICTURE":"76567fe7bed9b9047853cc18dbf8fcb5","SMARTRADIO":"0","RANK":"610802","__TYPE__":"artist"}],"ALB_ID":"11747848","ALB_TITLE":"So Long","TYPE":0,"MD5_ORIGIN":"ad16b6d307283fa9394bb84fb9818e09","VIDEO":false,"DURATION":"231","ALB_PICTURE":"6c587ff4eebd7c18debb136b2f2f593a","ART_PICTURE":"76567fe7bed9b9047853cc18dbf8fcb5","RANK_SNG":"771326","SMARTRADIO":"0","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1849886","FILESIZE_MP3_128":"3699773","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9249435","FILESIZE":"3699773","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"(From The Motion Picture Concussion)","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"USQX91502749","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"associatedperformer":["Leon Bridges"],"mainartist":["Leon Bridges"],"vocal":["Leon Bridges"],"composer":["Todd Bridges","Joshua Block","Austin Michael Jenkins","Chris Vivion"],"lyricist":["Todd Bridges","Joshua Block","Austin Michael Jenkins","Chris Vivion"],"background vocal":["Brittni Jessie","Brandon Marcel","Njia Martin"],"mixing engineer":["Joshua Block","Austin Michael Jenkins","Chris Vivion","Niles City Sound"],"producer":["Joshua Block","Austin Michael Jenkins","Chris Vivion","Niles City Sound","Joe LaPorta"],"recording engineer":["Joshua Block","Austin Michael Jenkins","Chris Vivion","Niles City Sound"],"acoustic guitar":["Austin Michael Jenkins"],"bass guitar":["Austin Michael Jenkins"],"electric guitar":["Austin Michael Jenkins"],"organ":["Andrew Skates"],"drums":["Josh Block"],"percussion":["Josh Block"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"113419450","PRODUCT_TRACK_ID":"302076371","UPLOAD_ID":0,"SNG_TITLE":"Le coeur \u00e9l\u00e9phant","ART_ID":"4539853","PROVIDER_ID":"4","ART_NAME":"Fr\u00e9ro Delavega","ARTISTS":[{"ART_ID":"4539853","ROLE_ID":"0","ART_NAME":"Fr\u00e9ro Delavega","ART_PICTURE":"57f928fe199f309a49383d97da3e2e2d","SMARTRADIO":"1","RANK":"841287","__TYPE__":"artist"}],"ALB_ID":"11748166","ALB_TITLE":"Le coeur \u00e9l\u00e9phant","TYPE":0,"MD5_ORIGIN":"3a32581c4c9d989557c112b1a5c73fa0","VIDEO":false,"DURATION":"233","ALB_PICTURE":"12108ff365cb104e1c88aa72d253e1d9","ART_PICTURE":"57f928fe199f309a49383d97da3e2e2d","RANK_SNG":"864265","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1864514","FILESIZE_MP3_128":"3729030","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9322578","FILESIZE":"3729030","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{},"ISRC":"FRUM71502050","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Fr\u00e9ro Delavega"],"interpr\u00e8te vocal":["Fr\u00e9ro Delavega"],"cello":["Octavio Angarita"],"violin":["Benjamin Violet","Evelyne Berlancourt"],"guitar":["Romain Joutard"],"bass guitar":["Romain Joutard"],"producer":["Romain Joutard","Julien Grenier"],"alto viol":["Damien Bec"],"keyboards":["Julien Grenier"],"drums":["Julien Grenier"],"percussion":["Adriano DD Tenorio"],"author":["Laurent Lamarca","H\u00e9l\u00e8ne Pince"],"composer":["Laurent Lamarca"],"musicpublisher":["French Flair"]},"LYRICS_ID":0,"FALLBACK":{"SNG_ID":"113941558","PRODUCT_TRACK_ID":"302076371","UPLOAD_ID":0,"SNG_TITLE":"Le coeur \u00e9l\u00e9phant","ART_ID":"4539853","PROVIDER_ID":"4","ART_NAME":"Fr\u00e9ro Delavega","ARTISTS":[{"ART_ID":"4539853","ROLE_ID":"0","ART_NAME":"Fr\u00e9ro Delavega","ART_PICTURE":"57f928fe199f309a49383d97da3e2e2d","SMARTRADIO":"1","RANK":"841287","__TYPE__":"artist"}],"ALB_ID":"11801282","ALB_TITLE":"Des ombres et des lumi\u00e8res","TYPE":0,"MD5_ORIGIN":"cfe730c91892470847999372e41f0164","VIDEO":false,"DURATION":"233","ALB_PICTURE":"12108ff365cb104e1c88aa72d253e1d9","ART_PICTURE":"57f928fe199f309a49383d97da3e2e2d","RANK_SNG":"607956","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1864305","FILESIZE_MP3_128":"3728612","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9321533","FILESIZE":"3728612","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"6","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"ISRC":"FRUM71502050","HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Fr\u00e9ro Delavega"],"interpr\u00e8te vocal":["Fr\u00e9ro Delavega"],"keyboards":["Julien Grenier"],"drums":["Julien Grenier"],"producer":["Julien Grenier","Romain Joutard"],"percussion":["Adriano DD Tenorio"],"bass guitar":["Romain Joutard"],"guitar":["Romain Joutard"],"violin":["Evelyne Berlancourt","Benjamin Violet"],"cello":["Octavio Angarita"],"alto viol":["Damien Bec"],"composer":["Laurent Lamarca"],"author":["Laurent Lamarca","H\u00e9l\u00e8ne Pince"],"musicpublisher":["French Flair"]},"LYRICS_ID":0,"__TYPE__":"song"},"__TYPE__":"song"},{"SNG_ID":"113415176","PRODUCT_TRACK_ID":"122796481","UPLOAD_ID":0,"SNG_TITLE":"Did You Miss Me?","ART_ID":"399881","PROVIDER_ID":"2","ART_NAME":"Olly Murs","ARTISTS":[{"ART_ID":"399881","ROLE_ID":"0","ART_NAME":"Olly Murs","ART_PICTURE":"b119f819b29a460bac8ff8829ee71f5c","SMARTRADIO":"1","RANK":"849961","__TYPE__":"artist"},{"ART_ID":"399881","ROLE_ID":"5","ART_NAME":"Olly Murs","ART_PICTURE":"b119f819b29a460bac8ff8829ee71f5c","SMARTRADIO":"1","RANK":"849961","__TYPE__":"artist"}],"ALB_ID":"11747704","ALB_TITLE":"Never Been Better","TYPE":0,"MD5_ORIGIN":"04b5c635b63c367c4bb276250a8d917c","VIDEO":false,"DURATION":"196","ALB_PICTURE":"d18ada16585d74a0a0e32c42306aa9b3","ART_PICTURE":"b119f819b29a460bac8ff8829ee71f5c","RANK_SNG":"756088","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"0","FILESIZE_MP3_128":"3149321","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7873305","FILESIZE":"3149321","MEDIA_VERSION":"3","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"GBARL1401279","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"associatedperformer":["Olly Murs"],"composer":["Olly Murs","Jason Evigan","Sean Douglas"],"lyricist":["Olly Murs","Jason Evigan","Sean Douglas"],"mainartist":["Olly Murs"],"programmer":["Olly Murs","Jason Evigan"],"performance arranger":["Nick Seeley","Jason Evigan"],"strings":["Nick Seeley"],"engineer":["Jason Evigan","John Hanes"],"other":["Jason Evigan"],"producer":["Jason Evigan"],"guitar":["Pierre-Luc Rioux"],"background vocal":["Jacob Luttrell"],"assistant engineer":["Isaiah Tejada"],"misc. prod.":["Dan Book"],"mixing engineer":["Serban Ghenea"],"mastering engineer":["Tom Coyne"]},"LYRICS_ID":"1344710","__TYPE__":"song"},{"SNG_ID":"110692470","PRODUCT_TRACK_ID":"197938511","UPLOAD_ID":0,"SNG_TITLE":"Your Love Will Blow Me Away When My Heart Aches","ART_ID":"5328949","PROVIDER_ID":"3","ART_NAME":"Son Little","ARTISTS":[{"ART_ID":"5328949","ROLE_ID":"0","ART_NAME":"Son Little","ART_PICTURE":"f5de7e1857002fb41daf3d8f7d9fbbc1","SMARTRADIO":"1","RANK":"417353","__TYPE__":"artist"}],"ALB_ID":"11516526","ALB_TITLE":"Son Little","TYPE":0,"MD5_ORIGIN":"26b2e2ebd88a497f434a72e936b3ad81","VIDEO":false,"DURATION":"183","ALB_PICTURE":"3702b26b8a60d0b95bd697d98328e2c4","ART_PICTURE":"f5de7e1857002fb41daf3d8f7d9fbbc1","RANK_SNG":"742058","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"1467662","FILESIZE_MP3_128":"2935326","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7338317","FILESIZE":"2935326","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"3","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"USEP41508007","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"mainartist":["Son Little"],"composer":["Aaron Livingston"]},"LYRICS_ID":0,"__TYPE__":"song"},{"SNG_ID":"113476292","PRODUCT_TRACK_ID":"306391281","UPLOAD_ID":0,"SNG_TITLE":"Blackstar","ART_ID":"997","PROVIDER_ID":"2","ART_NAME":"David Bowie","ARTISTS":[{"ART_ID":"997","ROLE_ID":"0","ART_NAME":"David Bowie","ART_PICTURE":"e1465e1039a04720eab7eacde132da79","SMARTRADIO":"1","RANK":"741854","__TYPE__":"artist"},{"ART_ID":"997","ROLE_ID":"5","ART_NAME":"David Bowie","ART_PICTURE":"e1465e1039a04720eab7eacde132da79","SMARTRADIO":"1","RANK":"741854","__TYPE__":"artist"}],"ALB_ID":"11754304","ALB_TITLE":"Blackstar","TYPE":0,"MD5_ORIGIN":"c12c7779cf2df05d2b57701448e6f824","VIDEO":false,"DURATION":"597","ALB_PICTURE":"cb2f8613ea95431f1bb6c3676e8f691e","ART_PICTURE":"e1465e1039a04720eab7eacde132da79","RANK_SNG":"781795","SMARTRADIO":"1","FILESIZE_AAC_64":0,"FILESIZE_MP3_64":"4783959","FILESIZE_MP3_128":"9567920","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"23919803","FILESIZE":"9567920","MEDIA_VERSION":"4","DISK_NUMBER":"1","TRACK_NUMBER":"1","VERSION":"","EXPLICIT_LYRICS":"0","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01","DOWNLOAD_ALC":"2000-01-01","DOWNLOAD_ALC_AVAILABLE":true},"ISRC":"USRF31500001","DATE_ADD":1448038017,"HIERARCHICAL_TITLE":"","SNG_CONTRIBUTORS":{"acoustic guitar":["David Bowie"],"associatedperformer":["David Bowie"],"composer":["David Bowie"],"lyricist":["David Bowie"],"mainartist":["David Bowie"],"mixing engineer":["David Bowie","Tony Visconti","Tom Elmhirst"],"producer":["David Bowie","Tony Visconti"],"strings":["David Bowie","Tony Visconti"],"vocal":["David Bowie"],"flute":["Donny McCaslin"],"saxophone":["Donny McCaslin"],"woodwinds":["Donny McCaslin"],"keyboards":["Jason Lindner"],"organ":["Jason Lindner"],"piano":["Jason Lindner"],"bass":["Tim Lefebvre"],"drums":["Mark Guiliana"],"percussion":["Mark Guiliana"],"guitar":["Ben Monder"],"engineer":["Tony Visconti","KEVIN KILLEN"],"mastering engineer":["Joe LaPorta"],"assistant engineer":["Kabir Hermon","Erin Tonkon","Joe Visciano"]},"LYRICS_ID":0,"__TYPE__":"song"}],"total":49,"count":20,"checksum":"50f6f0eefeac120bbe3601b6b5825a61"},
+	index: 0,
+	auto_play: false,
+	show_lyrics: false,
+	element_id: 53362031};
+// -->
+</script>
+<script type="text/javascript" src="http://e-cdn-files.deezer.com/cache/js/fr_FR-40357e60e3d87443c2457c76a7b2b490.js"></script>
+
+<script type="text/javascript" src="http://e-cdn-files.deezer.com/cache/js/core-020107445686e07123202510a2362757.js"></script>
+<script type="text/javascript" src="http://e-cdn-files.deezer.com/cache/js/naboo-cf0202673b471499f967de4292902592.js"></script>
+<script type="text/javascript" src="http://e-cdn-files.deezer.com/cache/js/livebar-ba4d69f7e148b2a9d7fca8a5c85a119a.js"></script>
+<script type="text/javascript">
+var yscroll = 0;
+var client_height = getClientHeight();
+var client_width = getClientWidth();
+
+	Events.resolve(Events.user.loaded);
+</script>
+
+<script type="text/javascript">
+if (window.BrowserDetect && window.BrowserDetect.browser === 'Chrome') {
+	var cs = document.createElement('script');
+	cs.src = '//www.gstatic.com/cv/js/sender/v1/cast_sender.js';
+	(document.head || document.documentElement).appendChild(cs);
+}
+</script>
+
+</head><body class="page-wrapper dir-ltr">
+	<section id="loading_bar" class="page-loader">
+		<div class="page-loader-bar"></div>
+	</section>
+	<section class="page-sidebar" id="page_sidebar"></section>
+	<section class="page-panels" id="page_panels"></section>
+	<section class="page-main">
+		<div class="ads ads-bottom">
+			<div id="ads_banner_bottom"></div>
+			<div id="ads_banner_audio"></div>
+		</div>
+		<div class="page-scroll" id="page_content">
+			<div class="page-content">
+				<div id="ads_banner_top" class="ads ads-top">
+				</div>
+				<div id="naboo_content">
+					<div id="page_offline">
+	<div class="brand">
+		<a href="/">
+			<img src="http://e-cdn-files.deezer.com/images/naboo/pages/offline/logo_deezer.png">
+		</a>
+	</div>
+	<h1 class="heading-1">Vous n'êtes pas connecté à Internet</h1>
+	<div class="divider"></div>
+
+	Votre plateforme actuelle ne prend pas en charge le mode hors connexion.
+</div>				</div>
+			</div>
+			<div id="ads_banner_left" class="page-ads"><img/></div>
+		</div>
+	</section>
+	<section id="ads_expand"></section>
+	<section class="page-livebar" id="naboo_livebar">
+		<div id="livebar">
+	<div id="live_warning" class="livebarmod live-warning" style="display:none;">
+		<div class="content">
+			<span class="icn_warning"></span>
+			<strong>Service indisponible</strong>
+		</div>
+	</div>
+	<div id="live_loader" class="livebarmod live-loader" style="display:none">
+		<div class="content">
+			<span class="icn_loader"></span>
+		</div>
+	</div>
+
+	<div id="livebar_content" class="livebar-content absolute ui-droppable" style="display:none;">
+		<div class="no_friends" style="display:none;">
+			<div class="icn-no-friends sprite_live"></div>
+			Retrouvez tous vos amis !			<button type="button" id="fb_btn" class="btn btn-facebook btn-small mt_10" href="javascript:void(0);" onClick="facebook.login(); return false;" style="display:inline-block;">
+				<span class="label">Connexion</span>
+			</button>
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="search_filter" style="display:none;">
+            <a class="cross bt_clear absolute" href="javascript:void(0)" style="display: none;">
+                <span class="block sprite_naboo"></span>
+            </a>
+			<input type="text" name="filter" class="search-friends" id="filter_input" onkeyup="friends.filter()" placeholder="Recherche" autocomplete='off'/>
+		</div>
+
+		<div id="livebar_overflow" style="display:none;">
+			<div class="tinyscroll_scrollbar">
+				<div class="tinyscroll_track">
+					<div class="tinyscroll_thumb">
+						<div class="tinyscroll_end"></div>
+					</div>
+				</div>
+			</div>
+			<div class="tinyscroll_viewport">
+				<div class="tinyscroll_overview">
+					<div id="naboo_live_loading" class="template fc_666 fs_12" style="margin:10px 0 0 13px">
+						<img src="http://e-cdn-files.deezer.com/img/common/loading_site_top-v00346865.gif" style="width:16px;height:16px;margin:-3px 5px -3px 0">
+						Chargement en cours					</div>
+					<div id="friends" style="display:block;">
+						<div id="messagePane"></div>
+						<div id="onlinePane"></div>
+						<div id="offlinePane"></div>
+						<div id="searchPane" style="display:none;"></div>
+						<div class="sep_friend" style="margin: 0 0;"></div>
+						<div style="padding: 0 9px">
+							<a id="more" href='javascript:void(0);' onClick="friends.searchUser(); tracking.track('livebar_following_click', {type: 'search'}); return false;" style="display:none;" class="btn btn-default btn-block mt_5 mb_10">
+								<span class="label">Recherchez dans tout Deezer</span>
+							</a>
+						</div>
+						<div id="searchDeezerPane" style="display:none;"></div>
+						<div id="online_friend_default" class="online_friend" style="display:none;">
+							<a id="picture" class="picture" href="javascript:void(0);"></a>
+							<div class="user">
+								<a class="pseudo"></a>
+								<div class="status">
+									<span class="listen"></span>
+									<span class="online sprite_live"></span>
+									<span class="drag sprite_live"></span>
+									<span class="message sprite_live" style="display:none;"></span>
+								</div>
+						   </div>
+						   <div class="clearfix"></div>
+						</div>
+					</div>
+					<div id="ticker_modele" class="feed-live" style="display:none;">
+						<img height="30" width="30"/>
+						<div class="icn-feed">
+							<div class="icn-mail sprite_live" style="display:none;"></div>
+						</div>
+						<div class="floatl feed-text">
+							<span></span>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div id="ticker" style="display:none;"></div>
+					<div id="notifications" style="display:none;"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="clearfix"></div>
+	<div id="livebar_gateway"></div>
+</div>
+	</section>
+	<section id="notification" class="page-notifications">
+		<div class="notification">
+			<a class="close" href="javascript:notification.hideNew()">
+				<span class="icon icon-delete-small-white"></span>
+			</a>
+			<h2></h2>
+			<p></p>
+		</div>
+	</section>
+	<section id="page_context_menu"></section>
+	<section class="page-shadow">
+		<script type="text/javascript">
+	function ie_placeholder() {
+		if (!Modernizr.input.placeholder) {
+			$('body :input[placeholder]:not([type="password"])').each(function() {
+				$(this).on({
+					'focus': function() {
+						if ($(this).val() == $(this).attr('placeholder')) {
+							$(this).val('');
+						}
+					},
+					'blur': function() {
+						if ($(this).val() == '' || $(this).val() == $(this).attr('placeholder')) {
+							$(this).val($(this).attr('placeholder'));
+						}
+					}
+				}).trigger('blur');
+			});
+		}
+	}
+			Events.subscribe(Events.navigation.page_loaded, ie_placeholder);
+	</script><div class="modal" id="modal" role="dialog" style="display: none;">
+	<div class="modal-backdrop"></div>
+	<div class="modal-wrapper"></div>
+</div><div id="interstitial" style="display: none;">
+	<div class="overlay"></div>
+	<div class="interstitial-container">
+		<span class="interstitial-wrapper">
+			<a class="close" href="javascript:void(0);" onclick="removeInterstitial(); return false;">
+				Fermer				<span class="icon icon-cancel"></span>
+			</a>
+			<a id="interstitial_ads"></a>
+		</span>
+	</div>
+</div><div id="notify">
+	<a class="close" href="javascript:void(0)" onclick="notificationBar.hide(); return false;"></a>
+	<a class="message" href="javascript:void(0)">
+		
+	</a>
+</div>
+<div class="hide">
+	<input id="checkForm" name="checkForm" type="hidden" value="27e17ee58b83ffb0145ea3aeb1fe3d03">
+</div>
+
+<div id="livemenu">
+	<div id="livebar_menu" style="display:none;">
+	<a id="btn_friends" href="javascript:void(0);" onClick="friends.show(); tracking.track('livebar_following_click', {type: 'main'}); return false;" original-title="Vous suivez">
+		<span class="tabs tabs-friends sprite_live">
+			<span class="tabs-hover sprite_live"></span>
+		</span>
+		<span id="friends_new" class="alert_notif sprite_live" style="display:none;"></span>
+	</a>
+	<a id="btn_ticker" href="javascript:void(0);" onClick="ticker.show(); tracking.track('livebar_activity_click', {type: 'main'}); return false;" original-title="Activité">
+		<span class="tabs tabs-tick sprite_live">
+			<span class="tabs-hover sprite_live"></span>
+		</span>
+		<span id="ticker_new" class="alert_notif bubble_notif" style="display:none;"></span>
+	</a>
+	<a id="btn_notifications" href="javascript:void(0);" onClick="notifications.show(); tracking.track('livebar_notifications_click', {type: 'main'}); return false;" original-title="Notifications">
+		<span class="tabs tabs-notif sprite_live">
+			<span class="tabs-hover sprite_live"></span>
+		</span>
+		<span id="notifications_new" class="alert_notif bubble_notif" style="display:none;"></span>
+	</a>
+	<a id="minimize" href="javascript:void(0)" onclick="livebar.hide(); tracking.track('livebar_hide_click', {type: 'main'}); return false;" style="display: none;"  original-title="Masquer">
+		<span class="tabs tabs-close sprite_live">
+			<span class="tabs-hover sprite_live"></span>
+		</span>
+	</a>
+	<div class="clearfix"></div>
+</div></div>
+
+<script type="text/javascript">
+var gatekeeper = {
+
+	features : {"multi_account":true,"multi_account_subscribe":true,"api_mob_ssl":false,"force_v5":true,"new_search":true,"search_label":false,"search_tag":false,"latest_episodes":false,"mobile_offline_expiration":false,"synchro_web_to_mobile":false,"desktop_client_windows":false,"console_log":false,"operator_test":false,"curator_feature":false,"curator_edito":false,"curator_label":false,"curator_telco":false,"curator_partner":false,"curator_local":false,"employee_feature":false,"onboarding":true,"instant_auth":false,"native_reg_ios":true,"native_reg_android":true,"native_app_rating_ios":true,"native_app_rating_android":true,"native_reg_wp":true,"operator_v2":false,"operator_web_v2":false,"operator_enable_instant_auth":false,"operator_termsconditions":false,"beta_user":false,"deezer_pro":false,"talk":true,"playlist_assistant":false,"charts_playlists_curated":false,"new_hp_artwork":false,"new_hp_artwork_uk":false,"newrelic":false,"performance_monitoring":false,"new_home":true,"new_home_de":false,"new_home_en":false,"carplay":false,"cell_add_to_library":false,"facebook_sso_wp":false,"box_conversion_free":false,"box_conversion_mobile_tablet":false,"talk_latest_playlist":true,"news_entertainment":true,"opening_interstitial_ios":true,"opening_interstitial_android":true,"landing_campaign":false,"audiobooks":false,"new_popular_musics":true,"material_design":false,"moods":false,"apprating_incentive":false},
+	isAllowed : function(feature) {
+		if (typeof(gatekeeper.features[feature]) == 'undefined') {
+			return false;
+		}
+		return gatekeeper.features[feature];
+	}
+};
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPQNZ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPQNZ6');</script>
+<!-- End Google Tag Manager --><script type="text/javascript">
+
+	(function() {
+
+		'use strict';
+		
+		googleplus.setAppData(
+			{"client_id":"630457285321-d5nmkpnjktjoeh426nvdu40rch1b1qe0.apps.googleusercontent.com","client_key":"AIzaSyC27tg4VNAkkQ-9P4fY45vUEfeYGSbDz_o","name":"Deezer","scope":"https:\/\/www.googleapis.com\/auth\/plus.login https:\/\/www.googleapis.com\/auth\/userinfo.email","redirect_uri":"postmessage","access_type":"offline","cookie_policy":"single_host_origin","request_visible_actions":"http:\/\/schemas.google.com\/AddActivity http:\/\/schemas.google.com\/ListenActivity http:\/\/schemas.google.com\/CommentActivity","version":"v1"}		);
+
+		if (user.current()) {
+
+			googleplus.setGGUid(
+				''
+			).setAccessToken(
+				{}			);
+
+		}
+
+		var po = document.createElement('script');
+		po.type = 'text/javascript';
+		po.async = true;
+		po.src = '//apis.google.com/js/client:plusone.js?onload=__onGGPlusReady';
+		po.text = "{ parsetags : 'explicit' }";
+
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(po, s);
+
+		window['__onGGPlusReady'] = function() {
+			Events.resolve(Events.googleplus.ready);
+			googleplus.renderGGPlus();
+		};
+
+	})();
+
+</script><div id="fb-root"></div>
+<script type="text/javascript">
+
+	(function() {
+
+		'use strict';
+
+		facebook.setAppData(
+			{"id":241284008322,"namespace":"deezer-app","scope":"email,user_birthday,user_likes,user_friends,publish_actions","version":"2.3","channel":"http:\/\/www.deezer.com\/fbgateway.html"}		);
+
+		if (user.current()) {
+
+			facebook.setFBUid(
+				''
+			).setAccessToken(
+				''
+			).allowExternalScope(
+							);
+
+		}
+
+		facebook.setAutoLogin(
+			true		);
+
+		window.fbAsyncInit = facebook.initFB.bind(facebook);
+
+		var lang = 'fr_FR';
+		var e = document.createElement('script');
+		e.async = true;
+		e.src = document.location.protocol + '//connect.facebook.net/' + lang + '/sdk/vb.js';
+		document.getElementById('fb-root').appendChild(e);
+
+	})();
+
+</script><script type="text/javascript">
+if (!OFFLINE) {
+
+	// CARREFUL, deezer modification here !
+	(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0))); if (typeof arguments[2] === 'function') arguments[2](); return true;}}var g=a;"undefined"!==typeof f?g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
+
+	mixpanel.init('1eeb74efa641147360b9550638faf774');
+	tracking.trackCampaign();
+}
+</script>
+<div class="h_icn_play"></div>
+
+<div id="hotkeys_container"></div>		<div class="core" id="core_player"></div>
+	</section>
+</body>
+</html>

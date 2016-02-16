@@ -1,0 +1,33 @@
+{
+   "description": "",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDj/JhqRj+nlTixJnBjrmPxuXWfy8ekhrftg1y6RO7BhbQ4l02vGbjyYn6TAy8rd5nQUI+KwDv2Dh+EVLJKyo9Ou4EernkkVyFL8awQAhtJvlMv3zA2GWhqbM0VKXps3GNI6FAuoHm4NKfGMoCwhxQO3edKog1mHrYRUJXoiz9lzwIDAQAB",
+   "manifest_version": 2,
+   "name": "Universe",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 171, 236, 255 ],
+         "button_background": [ 0, 0, 0, 0 ],
+         "frame": [ 66, 116, 201 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 0, 0, 0 ],
+         "tab_background_text": [ 137, 189, 204 ],
+         "tab_text": [ 171, 236, 255 ],
+         "toolbar": [ 0, 0, 0 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0, 0, 0.5 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2"
+}
