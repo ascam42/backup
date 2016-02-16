@@ -1,0 +1,17 @@
+#!/bin/sh
+## clone.sh for clone_shortcut in /home/ungaro_l
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Tue Sep 29 16:33:07 2015 Luca Ungaro
+## Last update Thu Oct  1 18:28:58 2015 Luca Ungaro
+##
+
+if [ $# -eq 1 ]; then
+    git clone git@git.epitech.eu:/$1
+elif [ $# -eq 2 ]; then
+    git clone git@git.epitech.eu:/$1 $2
+else
+    echo "Usage : clone user_name/repository [local clone name]"
+fi

@@ -1,0 +1,17 @@
+#!/bin/sh
+## prepare_my_repo.sh for prepare_my_repo in /home/ungaro_l/rendu/Piscine_C_J02
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Tue Sep 29 14:39:33 2015 Luca Ungaro
+## Last update Fri Jan 15 15:16:54 2016 Luca Ungaro
+##
+
+if [ $# -eq 1 ]; then
+    blih -u $USER repository create $1
+    blih -u $USER repository setacl $1 ramassage-tek r
+    blih -u $USER repository getacl $1
+else
+    echo "No directory name specified (or too many arguments). Usage : $0 directory_name"
+fi

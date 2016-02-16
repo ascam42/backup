@@ -1,0 +1,24 @@
+#!/bin/sh
+## rm_from_lib for rm_from_lib in /home/ungaro_l/myscripts
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Thu Oct  8 17:34:27 2015 Luca Ungaro
+## Last update Wed Oct 14 13:54:22 2015 Luca Ungaro
+##
+
+if [ $# -ge 1 ]
+then
+    if [ $1 = "-h" ] || [ $1 = "-info" ]
+    then
+	echo -e "Script to re-compile default personnal library, e.c. libmy.a (wich is used for compiling with lcc)\n\nUsage : rm_from_lib source_file.c [other_source_files.c\nlibmyc.a and all releaving source/objects files are located at $HOME/mylibs/]"
+    fi
+else
+    gcc -c $HOME/mylibs/sources/*;			$HOME/myscripts/my_defile_letters "Re-compiling..." 1000; echo ""
+    rm $HOME/mylibs/objects/*
+    mv *.o $HOME/mylibs/objects;			$HOME/myscripts/my_defile_letters "Getting object files..." 1000; echo ""
+    ar rc $HOME/mylibs/libmy.a $HOME/mylibs/objects/*;	$HOME/myscripts/my_defile_letters "Packaging library : /home/ungaro_l/mylibs/libmyc.a" 1000; echo ""
+    ranlib $HOME/mylibs/libmy.a;			$HOME/myscripts/my_defile_letters "Indexing libmy.a..." 1000; echo ""
+    $HOME/myscripts/my_defile_letters "Done !" 1000; echo ""
+fi

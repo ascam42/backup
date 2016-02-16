@@ -1,0 +1,5 @@
+#!/bin/bash
+
+find ./ -type f -name "#*#" -delete -o -name "*~" -delete -o -name "*.out" -delete
+$HOME/myscripts/my_defile_letters "Clean !" 1000
+echo ""

@@ -1,0 +1,29 @@
+#!/bin/sh
+## get_exec_time.sh for get_exec_time in /home/ungaro_l/rendu/Piscine_C_J05
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Tue Oct  6 14:50:46 2015 Luca Ungaro
+## Last update Tue Feb  2 11:10:21 2016 Luca Ungaro
+##
+
+START=$(date +%s%N)
+
+if [ $# -eq 1 ]
+then
+    $1
+else
+    read PROG
+fi
+
+END=$(date +%s%N)
+DIFF=$(( $END - $START ))
+
+S_PART=$(( $DIFF / 1000000000 ))
+NS_PART=$(( $DIFF % 1000000000 ))
+
+echo -e "\n\n-------------------------------------------------\n"
+echo -e "Program executed in $S_PART.$NS_PART second(s)"
+##echo -e "\t\t    $DIFF nanosecond(s)"
+echo -e "\n-------------------------------------------------\n"

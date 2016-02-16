@@ -1,0 +1,16 @@
+#!/bin/sh
+## crvor_bg.sh for crvor_bg in /home/ungaro_l/rendu/UNIX_system/PSU_2015_minishell1/crvor
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Mon Jan 11 17:16:10 2016 Luca Ungaro
+## Last update Mon Jan 11 17:28:40 2016 Luca Ungaro
+##
+
+if [ $# -ge 3 ]
+then
+    ($1)/crvor ($2) ($3) & >/dev/null
+else
+    echo "Usage : $0 PATH_TO_CRVOR SOUND_TO_PLAY PATH_TO_SOUNDS"
+fi

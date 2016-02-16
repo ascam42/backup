@@ -1,0 +1,16 @@
+#!/bin/sh
+## status.sh for status in /home/ungaro_l/myscripts
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Thu Oct  1 18:47:35 2015 Luca Ungaro
+## Last update Sun Oct  4 18:50:11 2015 Luca Ungaro
+##
+
+if [ $# -eq 1 ]; then
+    blih -u $USER repository getacl $1
+    blih -u $USER repository info $1
+else
+    echo "Usage : repo_info repository_name"
+fi

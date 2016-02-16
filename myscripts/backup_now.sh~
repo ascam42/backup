@@ -1,0 +1,51 @@
+#!/bin/sh
+## backup_now.sh for backup in /home/ungaro_l/myscripts
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Wed Jan 27 14:50:32 2016 Luca Ungaro
+## Last update Wed Jan 27 15:13:39 2016 Luca Ungaro
+##
+
+CP=cp -rv
+DRIVE=/run/media/$USER/EPI-BACKUP
+BACKUP=$DRIVE/backup
+
+TARGETS=(
+    ~/.config/
+    ~/.my*
+    ~/.bashrc
+    ~/.zshrc
+    ~/.emacs*
+    ~/.froot/
+    ~/.ssh/
+    ~/rendu
+    ~/myscripts
+    ~/perso
+    )
+
+echerr()
+{
+    echo $@ 1>&2;
+}
+
+echo "COUCOU" >> log
+
+if [ -d $DRIVE  ]
+then
+    if [ ! -d $BACKUP ]
+    then
+	mkdir $BACKUP
+    fi
+    cd $BACKUP
+
+    echo "Starting backup. Destination is '$BACKUP'"
+
+    for ITEM in ${TARGETS[@]}
+    do
+	$CP $ITEM $BACKUP
+    done
+else
+    echerr "Drive '$DRIVE' not found...";
+fi
