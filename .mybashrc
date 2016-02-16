@@ -1,0 +1,58 @@
+##Automatical netsoul authentification
+##ns_auth
+
+##System customization
+export PAGER='most'
+export PATH="$PATH:$HOME/myscripts"
+
+
+## Aliases persos
+
+# Compilation
+alias xmake='clear;make re'
+alias mcl='make clean'
+alias xmk='xmake; mcl'
+
+# Git
+alias graph='git graph'
+alias stat='git status'
+
+# System
+alias l='clear;pwd;echo;ls -lAhX'
+alias ll='clear;ls -plah'
+alias rm='rm -v --preserve-root'
+alias rd='rmdir -v'
+alias md='mkdir'
+alias jj='java -jar'
+alias h='date +"%T"'
+alias ffx='nohup firefox'
+alias ggl='nohup xdg-open http://google.fr'
+alias intra='nohup xdg-open http://intra.epitech.eu'
+alias mail='nohup xdg-open https://login.microsoftonline.com/login.srf?wa=wsignin1.0'
+alias open='xdg-open'
+alias emacstutor='nohup xdg-open http://www.tuteurs.ens.fr/unix/editeurs/emacs.html'
+alias mlk='xlock -mode matrix'
+alias rmake='reset;make'
+alias us='setxkbmap us'
+alias fr='setxkbmap fr'
+alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "state|time|percentage|to full|to empty"'
+alias today='cd $HOME/rendu/UNIX_system/PSU_2015_minishell1'
+
+## !Aliases
+
+## Read-only emacs mode
+ev()
+{
+  emacs "$1" --eval '(setq buffer-read-only t)'
+}
+
+##Fancy start message
+clear
+echo ""
+$HOME/myscripts/my_defile_letters " Blinux runway initializing..." 1000
+echo ""
+$HOME/myscripts/my_defile_letters " Term session started at " 1000
+echo -e "`date +"%T"`\n "
+usleep 100000
+$HOME/myscripts/my_defile_letters " Welcome ungaro_l, your shell is ready to proceed" 1000
+echo -e "\n"

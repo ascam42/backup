@@ -1,0 +1,69 @@
+;;MELPA
+
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+;; Source code config :
+
+;; Autocomplete keybinging
+(global-set-key (kbd "²") 'dabbrev-expand)
+(global-set-key (kbd "C-q") 'dabbrev-expand)
+
+;; Line & column nomber dipslay
+(column-number-mode t)
+(line-number-mode t)
+
+;; Line number index
+(require 'linum)
+(global-linum-mode 1)
+(setq linum-format (lambda (line) (propertize (format (let ((w (length (number-to-string (count-lines (point-min) (point-max)))))) (concat "%" (number-to-string w) "d ")) line) 'face 'linum)))
+
+;; Shows overflows : spaces, columns, lines                                                      
+(setq whitespace-style '(face trailing))
+(setq-default show-trailing-whitespace t)
+(global-set-key [f4] 'count-lines-region)
+(setq-default fill-column 80)
+
+;; It's show-time
+(display-time-mode t)
+
+;; Bold current line
+(global-hl-line-mode t)
+(custom-set-faces '(highlight ((t (:weight bold)))))
+
+;; Corresponding parenthesis
+(show-paren-mode)
+
+;; Show tabs and too long lines                                       
+(custom-set-faces
+ '(my-tab-face ((((class color)) (:foreground "black" :weight bold :underline t))) t)
+ '(my-trailing-space-face ((((class color)) (:background "gray10"))) t))
+;; with OVER 80 cols :: orange
+;; (custom-set-faces
+;;  '(my-tab-face ((((class color)) (:foreground "black" :weight bold :underline t))) t)
+;;  '(my-trailing-space-face ((((class color)) (:background "gray10"))) t)
+;;  '(my-loong-line-face ((((class color)) (:background "yellow"))) t))
+
+(defun cc-mode-add-keywords (mode)
+  (font-lock-add-keywords
+   mode
+   '(
+     ("\t+" (0 'my-tab-face append))
+     ("^.\\{81\\}\\(.+\\)$" (1 'my-loong-line-face append)))))
+
+;; Colorize 80's column
+(require 'fill-column-indicator)
+(setq fci-rule-width 1)
+(setq fci-rule-color "white")
+(add-hook 'c-mode-hook 'fci-mode)
+(global-set-key [?\C-c ?m] 'fci-mode)
+
+(cc-mode-add-keywords 'c-mode)
+(cc-mode-add-keywords 'php-mode)
+;;(cc-mode-add-keywords 'sh-mode)
+(cc-mode-add-keywords 'python-mode)
+(cc-mode-add-keywords 'perl-mode)
+(cc-mode-add-keywords 'c++-mode)
