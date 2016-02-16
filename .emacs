@@ -13,3 +13,11 @@
 
 (if (file-exists-p "~/.emacs.d/std_comment.el")
     (load-file "~/.emacs.d/std_comment.el"))
+
+
+;; (require 'color-theme)
+;; (color-theme-initialize)
+
+;; (load "yoones-theme")
+;; (load-file "~/.emacs.d/yoones-theme.el")
+;; (color-theme-yoones)

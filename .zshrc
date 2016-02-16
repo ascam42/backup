@@ -18,7 +18,9 @@ promptinit
 autoload -U colors
 colors
 
-PROMPT="%{$fg[red]%}%(?..[%?] )%{$reset_color%}%* %# "
+##PROMPT="U :: "		## un prompt-u !!
+##PROMPT="%{$fg[red]%}%(?..[%?] )%{$reset_color%}%* %# "
+PROMPT="%{$fg[red]%}%(?..[%?] )%{$reset_color%}%# "
 
 zstyle ':completion:*' menu select
 
@@ -26,7 +28,7 @@ zstyle ':completion:*' menu select
 
 export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin"
 
-export EDITOR='emacs'
+export EDITOR='emacs -nw'
 export HISTSIZE=1000
 export MAIL="/u/all/${USER}/mail/${USER}"
 export PAGER='more'
@@ -58,10 +60,12 @@ export PATH="$PATH:$HOME/myscripts"
 
 ## Aliases persos
 
-# Compilation
+# Compilation && debug
 alias xmake='clear;make re'
 alias mcl='make clean'
 alias xmk='xmake; mcl'
+alias v='valgrind --leak-check=full'
+alias skill='killall -s SIGKILL'
 
 # Git
 alias graph='git graph'
@@ -76,18 +80,15 @@ alias md='mkdir'
 alias jj='java -jar'
 alias h='date +"%T"'
 alias ffx='nohup firefox'
-alias ggl='nohup xdg-open http://google.fr'
-alias intra='nohup xdg-open http://intra.epitech.eu'
-alias mail='nohup xdg-open https://login.microsoftonline.com/login.srf?wa=wsignin1.0'
 alias open='xdg-open'
 alias mlk='xlock -mode matrix'
 alias rmake='reset;make'
 alias us='setxkbmap us'
 alias fr='setxkbmap fr'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "state|time|percentage|to full|to empty"'
-alias today='cd $HOME/rendu/UNIX_system/PSU_2015_minitalk'
-alias lapin='cd $HOME/rendu/Igraph/gfx_tekpaint'
-
+alias today='cd $HOME/rendu/C_prog_elem/CPE_2015_Allum1'
+alias lapin='cd $HOME/rendu/Igraph/gfx_tekgui'
+alias zsource='source ~/.zshrc'
 ## !Aliases
 
 ## Read-only emacs mode
@@ -116,3 +117,15 @@ echo -e "`date +"%T"`\n "
 usleep 100000
 $HOME/myscripts/my_defile_letters " Welcome ungaro_l, your shell is ready to proceed" 1000
 echo -e "\n"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"

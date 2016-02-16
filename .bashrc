@@ -28,3 +28,15 @@ if [ -f ${HOME}/.mybashrc ]
 then
     . ${HOME}/.mybashrc
 fi
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
