@@ -40,3 +40,18 @@ export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
 export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
 export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
 export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin:/home/ungaro_l/myscripts:/home/ungaro_l/bin
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+
+export LD_LIBRARY_PATH="/home/ungaro_l/.froot/lib/"
+export C_INCLUDE_PATH="/home/ungaro_l/.froot/include/"
+export CPLUS_INCLUDE_PATH="/home/ungaro_l/.froot/include/"

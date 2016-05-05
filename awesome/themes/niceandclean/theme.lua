@@ -22,7 +22,8 @@ end
 themedir = themes .. themename
 
 -- theme.wallpaper_cmd = { "awsetbg /home/ungaro_l/.config/awesome/wallpaper_pers/anime_dark_purple_pink.jpg" }
-theme.wallpaper_cmd = { "awsetbg /home/ungaro_l/.config/awesome/wallpaper_pers/pink_dark_vector.jpg" }
+-- theme.wallpaper_cmd = { "awsetbg /home/ungaro_l/.config/awesome/wallpaper_pers/pink_dark_vector.jpg" }
+theme.wallpaper_cmd = { "awsetbg /home/ungaro_l/.config/awesome/wallpaper_pers/chelsea.png" }
 
 -- wallpaper1    = themedir .. "/background.jpg"
 -- wallpaper2    = themedir .. "/background.png"
@@ -64,9 +65,10 @@ theme.fg_minimize   = "#ffffff"
 
 theme.border_width  = "2"
 theme.border_normal = "#747474"
---theme.border_focus  = "#535d6c"
+-- theme.border_focus  = "#535d6c"
 theme.border_marked = "#91231c"
 theme.border_focus  = "#ce2c51"
+-- 'theme.border_focus = "#f66768"
 
 -- There are other variable sets
 -- overriding the default one when

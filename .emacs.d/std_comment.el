@@ -5,7 +5,7 @@
 ;; Login   <fred@epita.fr>
 ;; 
 ;; Started on  Thu Sep  9 23:34:05 1993 Frederic Denis
-;; Last update Mon Dec  7 15:14:14 2015 Luca Ungaro
+;; Last update Mon Apr  4 12:17:16 2016 Luca Ungaro
 ;;
 ;; Based on Comment routines by Isaac
 ;;
@@ -80,7 +80,7 @@
                         ("Pascal"               . stdp-ascal-alist)
                         ("Text"                 . std-text-alist)
                         ("HTML"                 . std-html-alist)
-			("PHP"                 . std-php-alist)
+			("PHP"                  . std-php-alist)
                         ("Nroff"                . std-nroff-alist)
                         ("TeX"                  . std-latex-alist)
                         ("LaTeX"                . std-latex-alist))

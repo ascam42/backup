@@ -1,21 +1,3 @@
-./mysh 
-echo "coucou"
-fg
-push_that "A priori on a ce qui est demandey"
-l
-mkdir srcs
-mv *.c srcs
-l
-ne Makefile 
-make re
-valgrind ./mysh 
-ne srcs/main.
-ne srcs/main.c
-fg
-make
-fg
-ne srcs/main.c
-xmk
 valgrind ./mysh 
 fg
 ne srcs/exec.c 
@@ -998,3 +980,21 @@ ev .froot/include/lapin_enum.h
 exit 2
 exit
 cat /dev/urandom | ./mysh 
+zouf
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+env X='() { (a)=>\' bash -c "echo date"; cat echo
+bash
+env X='() { (a)=>\' bash -c "echo date"; cat echo
+echo X
+echo $X
+env X='() { (a)=>\' bash -c "echo date"; cat echo
+echo $X
+bash -c 'true <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF' || echo "CVE-2014-7186 vulnerable, redir_stack"
+(for x in {1..200} ; do echo "for x$x in ; do :"; done; for x in {1..200} ; do echo done ; done) | bash || echo "CVE-2014-7187 vulnerable, word_lineno"
+ls
+l
+ls
+cd
+ls
+;;;;;;;;;
+;;;;;;;;;;;;;

@@ -1,16 +1,46 @@
-;;MELPA
-
+;;
+;;
+;; MELPA
+;;
 
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
 
+
+;;
+;; Open binary files in hexl-mode (corewar)
+;;
+;;
+(defun buffer-binary-p (&optional buffer)
+  (with-current-buffer (or buffer (current-buffer))
+    (save-excursion
+      (goto-char (point-min))
+      (search-forward (string ?\x00) nil t 1))))
+
+(defun hexl-if-binary ()
+  (interactive)
+  (unless (eq major-mode 'hexl-mode)
+    (when (buffer-binary-p)
+      (hexl-mode))))
+
+(add-hook 'find-file-hooks 'hexl-if-binary)
+
+;; AUTO-COMPLETE
+
+;;(ac-config-default)
+
+
 ;; Source code config :
 
 ;; Autocomplete keybinging
 (global-set-key (kbd "²") 'dabbrev-expand)
 (global-set-key (kbd "C-q") 'dabbrev-expand)
+
+;; jump to beginning-end
+;; (global-set-key (kbd "C-<home>") 'beginning-of-buffer)
+;; (global-set-key (kbd "C-<end>") 'end-of-buffer)
 
 ;; Line & column nomber dipslay
 (column-number-mode t)
@@ -21,49 +51,66 @@
 (global-linum-mode 1)
 (setq linum-format (lambda (line) (propertize (format (let ((w (length (number-to-string (count-lines (point-min) (point-max)))))) (concat "%" (number-to-string w) "d ")) line) 'face 'linum)))
 
-;; Shows overflows : spaces, columns, lines                                                      
-(setq whitespace-style '(face trailing))
-(setq-default show-trailing-whitespace t)
-(global-set-key [f4] 'count-lines-region)
-(setq-default fill-column 80)
+;;Shows overflows : spaces, columns, lines                                                      
+;; (setq whitespace-style '(face trailing))
+;; (setq-default show-trailing-whitespace t)
+;; (global-set-key [f4] 'count-lines-region)
+;; (setq-default fill-column 80)
 
 ;; It's show-time
 (display-time-mode t)
 
 ;; Bold current line
-(global-hl-line-mode t)
-(custom-set-faces '(highlight ((t (:weight bold)))))
+;;(global-hl-line-mode t)
+;; (custom-set-faces '(highlight ((t (:weight bold)))))
 
 ;; Corresponding parenthesis
-(show-paren-mode)
+;; (show-paren-mode)
 
 ;; Show tabs and too long lines                                       
-(custom-set-faces
- '(my-tab-face ((((class color)) (:foreground "black" :weight bold :underline t))) t)
- '(my-trailing-space-face ((((class color)) (:background "gray10"))) t))
+;; (custom-set-faces
+;;  '(my-tab-face ((((class color)) (:foreground "black" :weight bold :underline t))) t)
+;;  '(my-trailing-space-face ((((class color)) (:background "gray10"))) t))
 ;; with OVER 80 cols :: orange
 ;; (custom-set-faces
 ;;  '(my-tab-face ((((class color)) (:foreground "black" :weight bold :underline t))) t)
 ;;  '(my-trailing-space-face ((((class color)) (:background "gray10"))) t)
 ;;  '(my-loong-line-face ((((class color)) (:background "yellow"))) t))
 
-(defun cc-mode-add-keywords (mode)
-  (font-lock-add-keywords
-   mode
-   '(
-     ("\t+" (0 'my-tab-face append))
-     ("^.\\{81\\}\\(.+\\)$" (1 'my-loong-line-face append)))))
+;; (defun cc-mode-add-keywords (mode)
+;;   (font-lock-add-keywords
+;;    mode
+;;    '(
+;;      ("\t+" (0 'my-tab-face append))
+;;      ("^.\\{81\\}\\(.+\\)$" (1 'my-loong-line-face append)))))
 
-;; Colorize 80's column
-(require 'fill-column-indicator)
-(setq fci-rule-width 1)
-(setq fci-rule-color "white")
-(add-hook 'c-mode-hook 'fci-mode)
-(global-set-key [?\C-c ?m] 'fci-mode)
 
-(cc-mode-add-keywords 'c-mode)
-(cc-mode-add-keywords 'php-mode)
-;;(cc-mode-add-keywords 'sh-mode)
-(cc-mode-add-keywords 'python-mode)
-(cc-mode-add-keywords 'perl-mode)
-(cc-mode-add-keywords 'c++-mode)
+;; ;; Vertical line on 80's column
+;; (require 'fill-column-indicator)
+;; (setq fci-rule-width 1)
+;; (setq fci-rule-color "white")
+
+;; (add-hook 'c-mode-hook 'fci-mode) WAS ALREADY COMMENTED
+
+;; (global-set-key [?\C-c ?m] 'fci-mode)
+
+
+;; Java indentation size && annotations
+;; (add-hook 'java-mode-hook (lambda ()
+;; 			    (setq c-basic-offset 2
+;; 				  tab-width 8
+;; 				  indent-tabs-mode t)))
+;; (add-hook 'java-mode-hook
+;; 	  (lambda ()
+;; 	    "Treat Java 1.5 @-style annotations as comments."
+;; 	    (setq c-comment-start-regexp "(@|/(/|[*][*]?))")
+;; 	    (modify-syntax-entry ?@ "< b" java-mode-syntax-table)))
+
+
+;; (cc-mode-add-keywords 'c-mode)
+;; (cc-mode-add-keywords 'php-mode)
+;; (cc-mode-add-keywords 'sh-mode)
+;; (cc-mode-add-keywords 'python-mode)
+;; (cc-mode-add-keywords 'perl-mode)
+;; (cc-mode-add-keywords 'c++-mode)
+;; (cc-mode-add-keywords 'java-mode)

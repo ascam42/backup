@@ -39,12 +39,13 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
 -- beautiful.init("/usr/share/awesome/themes/default/theme.lua")
-beautiful.init("/home/ungaro_l/.config/awesome/themes/niceandclean/theme.lua")
+beautiful.init("/home/ungaro_l/.config/awesome/themes/foo/theme.lua")
 -- foo is symaptic ; niceandclean ; obscur (changing the wallpaper); rainbow; snow (ch wallpaper); wombat (zen, but change wallpaper)
 
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xterm -fa Inconsolata -fs 11.5"
+-- terminal = "xterm -fa fixed -fs 11"
+terminal = "terminator"
 -- terminal = "xfce4-terminal"
 editor = "emacs -nw" or os.getenv("EDITOR")
 editor_cmd = terminal .. " -e " .. editor
@@ -61,25 +62,26 @@ layouts =
 {
     awful.layout.suit.floating,
     awful.layout.suit.tile,
-    awful.layout.suit.tile.left,
-    awful.layout.suit.tile.bottom,
+    -- awful.layout.suit.tile.left,
+    -- awful.layout.suit.tile.bottom,
     awful.layout.suit.tile.top,
-    awful.layout.suit.fair,
-    awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.spiral.dwindle,
+    -- awful.layout.suit.fair,
+    -- awful.layout.suit.fair.horizontal,
+    -- awful.layout.suit.spiral,
+    -- awful.layout.suit.spiral.dwindle,
     awful.layout.suit.max,
-    awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier
+    -- awful.layout.suit.max.fullscreen,
+    -- awful.layout.suit.magnifier
 }
 -- }}}
 
 -- {{{ Tags
 -- Define a tag table which will hold all screen tags.
+-- CAREFUL OF WHAT LAYOUTS ARE ACTIVTED
 tags = {
      names  = { " Neo ", " Morpheus ", " Pizzle ", " Twizzle ", " Cricket ", " Gandalf ", " Dumbledore ", " Thierry ", " Paul " },
-     layout = { layouts[1], layouts[10], layouts[6], layouts[6], layouts[6],
-     layouts[4], layouts[4], layouts[1], layouts[1]
+     layout = { layouts[1], layouts[4], layouts[1], layouts[2], layouts[2],
+     layouts[3], layouts[3], layouts[1], layouts[1]
 }}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
@@ -266,8 +268,11 @@ globalkeys = awful.util.table.join(
                   awful.util.getdir("cache") .. "/history_eval")
               end),
 
-    -- Perso : xterm running mysh on CTRL + ALT + T
-    awful.key({ modkey, "Control" }, "t",		function () awful.util.spawn("xterm -fa Inconsolata -fs 20 -e /home/ungaro_l/rendu/UNIX_system/PSU_2015_minishell1/mysh") end),
+    -- Perso : xterm running on mysh MOD + ALT + T
+    awful.key({ modkey, "Control" }, "t",		function () awful.util.spawn("xterm -fa Inconsolata -fs 20 -e /home/ungaro_l/rendu/UNIX_system/PSU_2015_minishell2/mysh") end),
+
+    -- Perso : Hadrien blanc term
+    awful.key({ modkey,           }, "h",		function () awful.util.spawn("xterm") end),
 
     -- Perso : running scrips capscr on "PRINT SCREEN" key
     awful.key({}, "Print", function() awful.util.spawn("$HOME/myscripts/capscr", false) end),
@@ -362,8 +367,12 @@ awful.rules.rules = {
     { rule = { class = "Firefox" },
       properties = { tag = tags[1][2] } },
     -- Set Chromium to always map on tags number 3 of screen 1.
-    { rule = { class = "Chromium" },
-      properties = { tag = tags[1][3] } },
+    { rule = { class = "chromium" },
+      properties = { tag = tags[1][2] } },
+    { rule = { class = "/usr/sbin/wpa_gui" },
+      properties = { tag = tags[1][9] } },
+    { rule = { class = "xterm" },
+      properties = { opacity = 0.8 } }
 }
 -- }}}
 

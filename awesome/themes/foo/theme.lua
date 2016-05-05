@@ -21,7 +21,7 @@ if not awful.util.file_readable(themes .. themename .. "/theme.lua") then
 end
 themedir      = themes .. themename
 
-theme.wallpaper_cmd = { "awsetbg /home/ungaro_l/.config/awesome/wallpaper_pers/wallpaper1.jpeg" }
+theme.wallpaper_cmd = { "awsetbg /home/ungaro_l/.config/awesome/wallpaper_pers/wallpaper8.jpeg" }
 
 -- theme.wallpaper = "/home/ungaro_l/.config/awesome/wallpaper_pers/wallpaper1.jpeg"
 
@@ -48,7 +48,7 @@ if awful.util.file_readable(config .. "/vain/init.lua") then
 end
 --}}}
 
-theme.font    = "Consolas 9"
+theme.font    = "Consolas 8"
 
 theme.bg_normal     = "#000000"
 theme.bg_focus      = "#1279bf"
