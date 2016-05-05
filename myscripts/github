@@ -1,0 +1,85 @@
+#!/bin/sh
+## github for resume in /home/ungaro_l/myscripts
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Fri Apr  1 17:52:18 2016 Luca Ungaro
+## Last update Fri Apr  1 21:42:20 2016 Luca Ungaro
+##
+
+DEFAULT="\033[00m"
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+TEAL="\033[1;36m"
+
+CP="cp -r -u"
+ECHO="echo -e"
+
+RENDU=~/rendu
+TARGETS=(
+    $RENDU/C_prog_elem
+    $RENDU/Igraph
+    $RENDU/UNIX_system
+    $RENDU/Piscine_C
+)
+
+GITHUB=git@github.com:encein42/epitech_tek1.git
+TMP_LOCAL=/tmp/github
+
+echerr()
+{
+    $ECHO >&2
+}
+
+
+[ -d $TMP_LOCAL ] && rm -rf $TMP_LOCAL/
+
+git clone $GITHUB $TMP_LOCAL
+
+if [ -d $TMP_LOCAL ]
+then
+    cd $TMP_LOCAL
+    # git reset --hard
+    # git pull origin master
+
+    for DIR in ${TARGETS[@]}
+    do
+	$CP $DIR $TMP_LOCAL/
+    done
+
+    cd $TMP_LOCAL
+
+    for REPO in ./**/*/
+    do
+	if [ -d $REPO ]
+	then
+	    PROJECT=$(basename $REPO)
+	    cd $REPO
+	    if [ -d .git ]
+	    then
+		echo `pwd`
+		sleep 1
+		git remote remove origin && \
+		    rm -rf $TMP_LOCAL/$DIR/$PROJECT/.git/ && \
+		    rm -rf $TMP_LOCAL/$DIR/$PROJECT/.gitignore && \
+		    make fclean >/dev/null 2>&1 && \
+		    $ECHO [ $GREEN OK $DEFAULT ] $TEAL$PROJECT$DEFAULT || \
+		    $ECHO [ $RED KO $DEFAULT ] $TEAL$PROJECT$DEFAULT
+	    else
+		$ECHO [ $GREEN OK $DEFAULT ] $TEAL$PROJECT$DEFAULT
+	    fi
+	fi
+    done
+
+
+    git remote add origin $GITHUB && \
+	git add --all && \
+	git commit -m "Auto-push from $HOSTNAME at `date`" && \
+	git push origin master && \
+	$ECHO [ $GREEN OK $DEFAULT ] $TEAL pushing update to $GITHUB $DEFAULT || \
+	$ECHO [ $RED KO $DEFAULT ] $TEAL pushing update to $GITHUB $DEFAULT
+else
+    echerr $RED FATAL$DEFAULT : Could not clone github repository...
+    exit 1
+fi

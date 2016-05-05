@@ -5,12 +5,17 @@
 ## Login   <ungaro_l@epitech.net>
 ## 
 ## Started on  Tue Sep 29 15:08:22 2015 Luca Ungaro
-## Last update Sat Dec  5 15:28:20 2015 Luca Ungaro
+## Last update Thu Feb  4 19:02:36 2016 Luca Ungaro
 ##
 
 make fclean
 clean
 
 git add --all
-git commit -m "$1"
+if [ $# -ge 1 ]
+then
+    git commit -m "$@"
+else
+    git commit
+fi
 git push origin master

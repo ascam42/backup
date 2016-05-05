@@ -1,0 +1,136 @@
+#!/bin/sh
+## check_repo.sh for test repo in /home/ungaro_l/myscripts
+## 
+## Made by Luca Ungaro
+## Login   <ungaro_l@epitech.net>
+## 
+## Started on  Sat Mar 19 13:12:42 2016 Luca Ungaro
+## Last update Sat Mar 19 18:23:39 2016 Luca Ungaro
+##
+
+
+ARGV=("$@")
+ARGC=("$#")
+
+ASK_LOGIN=false
+DO_MAKE=true
+
+RAMASSAGE="ramassage-tek:r"
+LOG="/tmp/blih_log"
+
+OLD=`pwd`
+
+DEFAULT="\033[00m"
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+TEAL="\033[1;36m"
+
+
+echexit()
+{
+    echo -e $@ >&2
+    exit -42
+}
+
+if [ $ARGC -ge 1 ]
+then
+
+    for ARG in $ARGV
+    do
+	case $ARG in
+	    "--help") echo -e "Usage: $0 [--login] [--nomake]\n"
+		echo -e "  --login\tSpecify group master's login (if it is not you)"
+		echo -e "  --nomake\tDo not test if your repo contains a Makefile"
+		exit
+		;;
+	    "--login") ASK_LOGIN=true
+		;;
+	    "--nomake") DO_MAKE=false
+		;;
+	    *) echo "$0: Invalid parameter $ARG. Try with --help" >&2
+		exit
+		;;
+	esac
+    done
+
+fi
+
+echo
+echo -n "Repo name (copy/paste from subject): "
+read REPO_NAME
+if [ "$ASK_LOGIN" = true ]
+then
+    echo -n "Login (group master): "
+    read LOGIN
+else
+    LOGIN=$USER
+fi
+
+
+
+########################
+##### Les droits ! #####
+########################
+if [[ $LOGIN == $USER ]]
+then
+    echo -n "blih "
+    blih -u $USER repository getacl $REPO_NAME >$LOG 2>&1
+    if [ $? -eq 0 ]
+    then
+    echo
+	[[ `cat $LOG` == *"$RAMASSAGE"* ]] \
+	    && echo -e "[ $GREEN OK $DEFAULT ]\tACL rigths" \
+	    || echo -e "[ $RED KO $DEFAULT ]\tACL rigths" >&2
+    else
+	echo -e "\n[ $RED KO $DEFAULT ] blih"
+	cat $LOG
+	exit -42
+    fi
+else
+    echo -e "\n[ $RED WARNING $DEFAULT ]\tGroup master shall check rights..." >&2
+fi
+
+
+
+cd /tmp
+[ -d $REPO_NAME ] && rm -rf $REPO_NAME
+
+###################
+##### Le repo #####
+###################
+echo -n "Cloning..."
+CLONE=`git clone git@git.epitech.eu:/$LOGIN/$REPO_NAME 2>&1`
+echo -ne "\r          "
+[[ $CLONE == *"fatal"* ]] \
+    && echexit "\r[ $RED KO $DEFAULT ]\tCould not clone"
+[[ $CLONE == *"empty"* ]] \
+    && echexit "\r[ $RED KO $DEFAULT ]\tRepo is empty"
+[ -d $REPO_NAME ] \
+    && echo -e "\r[ $GREEN OK $DEFAULT ]\tClone" \
+    || echexit "\r[ $RED KO $DEFAULT ]\tCould not clone (but it is strange...)"
+
+
+
+
+################
+##### make #####
+################
+if [ "$DO_MAKE" = true ]
+then
+    echo -n "Making..."
+    cd $REPO_NAME
+    FILES=`ls -R`
+    RETURN=`make`
+    echo -ne "\r          "
+    if [ $? -eq 0 ]
+    then
+	[[ $FILES != `ls -R` ]] \
+	    && echo -e "\r[ $GREEN OK $DEFAULT ]\tmake" \
+	    || echo -e "\r[ $RED WARNING $DEFAULT ]\tYou pushed your binary files !"
+    else
+	echexit "\r[ $RED KO $DEFAULT ]\tCould not make"
+    fi
+fi
+
+echo
+# cd $OLD

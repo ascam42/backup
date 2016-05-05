@@ -1,0 +1,1 @@
+find /  -type f -printf '%s %p\n' | grep -v "/mnt" | sort -nr | head -100

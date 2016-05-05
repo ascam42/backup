@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+#!/usr/bin/env python2
 #
 # Make by duponc_j@epitech.net
 # Version: 1.2.1
@@ -6,9 +6,7 @@
 
 '''
 An Epitech norme checker
-
 Usage: python norme.py <dir to scan> [-nocheat] [-verbose] [-score] [-libc]
-
 -verbose: affiche les messages impossible d\'ouvrir
 -nocheat: desactive la detection de la triche
 -score: affiche le nombre de faute de norme
@@ -17,12 +15,10 @@ Usage: python norme.py <dir to scan> [-nocheat] [-verbose] [-score] [-libc]
 -printline: affiche la ligne provoquant une erreur
 -return: active verifier le retour des fonctions (return ;)
 -comment: ne pas verifier les commentaire
-
 Non geree:
 - Indentation
 - +<escape>
 - verification de la presence de gl_
-
 Bug:
 Il est arrivee que le checker ne trouve aucune faute alors qu\'il en existe, si
 ce bug vous arrive maillez moi.
@@ -42,11 +38,11 @@ class norme:
         self.malloc = 1
         self.printline = 0
         self.creturn = 1
-
+        
     def new_file(self):
         self.nb_line = 1
         self.nb_return = 0
-        self.nb_funcline = 0
+        self.nb_funcline = 0        
         self.nb_func = 0
         self.sys_include = 0
         self.double_inclusion = 0
@@ -54,7 +50,7 @@ class norme:
         self.typedef = 0
         if self.verbose == 1:
             print "Scan",self.file
-
+    
     def check_header(self):
         if (self.nb_line == 1):
             if (self.line[:2] != '/*'):
@@ -96,7 +92,7 @@ class norme:
 
     def check_nbchar(self):
         line = self.line.replace('\t', '    ')
-        if (line[80:]):
+        if (line[81:]):
             self.print_error('chaine de plus de 80 caracteres')
 
     def check_return(self):
@@ -147,7 +143,7 @@ class norme:
 
     def check_comment(self):
         if self.is_func and self.comment:
-            p = re.compile('(//|/\*)')
+            p = re.compile('(//|/\*|/\*\*)')
             test = re.search(p, self.line)
             if test:
                 self.print_error('Commentaires dans le code')

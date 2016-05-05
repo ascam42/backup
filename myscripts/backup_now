@@ -5,7 +5,7 @@
 ## Login   <ungaro_l@epitech.net>
 ## 
 ## Started on  Wed Jan 27 14:50:32 2016 Luca Ungaro
-## Last update Wed Jan 27 16:14:03 2016 Luca Ungaro
+## Last update Thu Mar 31 12:05:44 2016 Luca Ungaro
 ##
 
 CP="cp --no-dereference --preserve=links --recursive"
@@ -17,10 +17,15 @@ ERRLOG=$BACKUP/backup.log
 RESTORE="restore"
 DEST=$HOME
 
+OLD_PWD=`pwd`
+
 DEFAULT="\033[00m"
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 TEAL="\033[1;36m"
+
+cd $HOME
+clean
 
 TARGETS=(
     ~/.my*
@@ -43,7 +48,7 @@ echerr()
 
 if [ -d $DRIVE  ]
 then
-    if [ $# -ge 1 && $1 = $RESTORE ]
+    if [ $# -ge 1 ] &&[ $1 = $RESTORE ]
     then
 	if [ $# -ge 2 ]
 	then
@@ -58,10 +63,11 @@ then
 	then
 	    mkdir $BACKUP
 	fi
+
 	cd $BACKUP
 
 	echo -e "\nStarting backup : destination is $TEAL $BACKUP $DEFAULT\n"
-	echo -e "\n\t---- BACKUP STARTED AT `date` ----\n" >> $ERRLOG
+	echo -e "\n\t---- BACKUP STARTED AT `date` ----\n" > $ERRLOG
 
 	for ITEM in ${TARGETS[@]}
 	do
@@ -73,6 +79,7 @@ then
 	echo -e "\n\t---- BACKUP ENDED AT `date` ----\n" >> $ERRLOG
 	echo "--------------------------------------------------------------------------------" >> $ERRLOG
 	echo -e "\nDone backup : errlog in $TEAL $ERRLOG $DEFAULT\n"
+	cd $OLD_PWD
     fi
 else
     echerr "Drive '$DRIVE' not found...";
